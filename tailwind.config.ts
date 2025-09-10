@@ -47,6 +47,14 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        sacred: {
+          DEFAULT: "hsl(var(--sacred))",
+          foreground: "hsl(var(--sacred-foreground))",
+        },
+        sunset: {
+          DEFAULT: "hsl(var(--sunset))",
+          foreground: "hsl(var(--sunset-foreground))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +65,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        'earth-gradient': 'var(--earth-gradient)',
+        'sacred-gradient': 'var(--sacred-gradient)',
+        'gentle-gradient': 'var(--gentle-gradient)',
+      },
+      fontFamily: {
+        body: ['Inter', 'sans-serif'],
+        heading: ['Crimson Text', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -80,10 +97,25 @@ export default {
             height: "0",
           },
         },
+        "float": {
+          "0%, 100%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
+        "glow": {
+          "0%, 100%": { opacity: "0.5" },
+          "50%": { opacity: "1" },
+        },
+        "sacred-pulse": {
+          "0%, 100%": { transform: "scale(1)", opacity: "0.7" },
+          "50%": { transform: "scale(1.05)", opacity: "1" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "float": "float 6s ease-in-out infinite",
+        "glow": "glow 4s ease-in-out infinite",
+        "sacred-pulse": "sacred-pulse 8s ease-in-out infinite",
       },
     },
   },
