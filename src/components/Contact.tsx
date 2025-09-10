@@ -1,19 +1,21 @@
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Contact = () => {
+  const { t } = useLanguage();
+
   return (
     <section className="py-20 bg-card" id="contact">
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-2 bg-sacred/10 text-sacred font-medium rounded-full text-sm mb-4">
-            CONTACTO
+            {t('contact.section')}
           </span>
           <h2 className="text-4xl md:text-5xl font-heading text-primary mb-6">
-            Inicia Tu Camino de Transformación
+            {t('contact.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Da el primer paso hacia tu sanación y crecimiento personal. 
-            Estoy aquí para acompañarte en este viaje sagrado.
+            {t('contact.description')}
           </p>
         </div>
         
@@ -22,7 +24,7 @@ const Contact = () => {
             {/* Contact info */}
             <div>
               <h3 className="text-2xl font-heading text-primary mb-8">
-                Información de Contacto
+                {t('contact.info.title')}
               </h3>
               
               <div className="space-y-6">
@@ -31,9 +33,9 @@ const Contact = () => {
                     <div className="w-4 h-4 bg-accent rounded-full" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-foreground mb-1">Consulta Inicial</h4>
+                    <h4 className="font-medium text-foreground mb-1">{t('contact.info.consultation')}</h4>
                     <p className="text-muted-foreground text-sm">
-                      Sesión de evaluación y orientación personalizada para conocer tu proceso
+                      {t('contact.info.consultation.desc')}
                     </p>
                   </div>
                 </div>
@@ -43,9 +45,9 @@ const Contact = () => {
                     <div className="w-4 h-4 bg-secondary rounded-full" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-foreground mb-1">Modalidades</h4>
+                    <h4 className="font-medium text-foreground mb-1">{t('contact.info.modalities')}</h4>
                     <p className="text-muted-foreground text-sm">
-                      Sesiones presenciales y online según tus necesidades y ubicación
+                      {t('contact.info.modalities.desc')}
                     </p>
                   </div>
                 </div>
@@ -55,9 +57,9 @@ const Contact = () => {
                     <div className="w-4 h-4 bg-sacred rounded-full" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-foreground mb-1">Confidencialidad</h4>
+                    <h4 className="font-medium text-foreground mb-1">{t('contact.info.confidentiality')}</h4>
                     <p className="text-muted-foreground text-sm">
-                      Todos los procesos se realizan bajo estrictos protocolos de privacidad
+                      {t('contact.info.confidentiality.desc')}
                     </p>
                   </div>
                 </div>
@@ -67,9 +69,9 @@ const Contact = () => {
                     <div className="w-4 h-4 bg-sunset rounded-full" />
                   </div>
                   <div>
-                    <h4 className="font-medium text-foreground mb-1">Emergencias</h4>
+                    <h4 className="font-medium text-foreground mb-1">{t('contact.info.emergency')}</h4>
                     <p className="text-muted-foreground text-sm">
-                      Protocolos de apoyo y líneas de crisis disponibles 24/7
+                      {t('contact.info.emergency.desc')}
                     </p>
                   </div>
                 </div>
@@ -79,35 +81,35 @@ const Contact = () => {
             {/* Contact form */}
             <div>
               <h3 className="text-2xl font-heading text-primary mb-8">
-                Solicitar Consulta
+                {t('contact.form.title')}
               </h3>
               
               <form className="space-y-6">
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">
-                    Nombre Completo
+                    {t('contact.form.name')}
                   </label>
                   <input 
                     type="text"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent/50 transition-smooth"
-                    placeholder="Tu nombre completo"
+                    placeholder={t('contact.form.name.placeholder')}
                   />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">
-                    Correo Electrónico
+                    {t('contact.form.email')}
                   </label>
                   <input 
                     type="email"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent/50 transition-smooth"
-                    placeholder="tu@correo.com"
+                    placeholder={t('contact.form.email.placeholder')}
                   />
                 </div>
                 
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">
-                    Tipo de Consulta
+                    {t('contact.form.type')}
                   </label>
                   <select className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent/50 transition-smooth">
                     <option>Consulta inicial</option>
@@ -121,17 +123,17 @@ const Contact = () => {
                 
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-2">
-                    Mensaje
+                    {t('contact.form.message')}
                   </label>
                   <textarea 
                     rows={4}
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent/50 transition-smooth resize-none"
-                    placeholder="Cuéntame brevemente sobre tu proceso o lo que buscas..."
+                    placeholder={t('contact.form.message.placeholder')}
                   />
                 </div>
                 
                 <Button variant="earth" size="lg" className="w-full">
-                  Enviar Solicitud
+                  {t('contact.form.submit')}
                 </Button>
               </form>
             </div>
@@ -141,8 +143,7 @@ const Contact = () => {
         {/* Trust note */}
         <div className="text-center mt-12">
           <p className="text-sm text-muted-foreground">
-            Al contactarme, das el primer paso en un proceso de acompañamiento ético, 
-            profesional y respetuoso hacia tu bienestar integral.
+            {t('contact.trust')}
           </p>
         </div>
       </div>

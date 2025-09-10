@@ -1,71 +1,103 @@
 import { Button } from "@/components/ui/button";
-
-const services = [
-  {
-    title: "Terapia",
-    subtitle: "Sesiones Individuales",
-    description: "Psicoterapia especializada combinando enfoques tradicionales con trabajo de conciencia para un crecimiento integral.",
-    features: ["Preparación terapéutica", "Apoyo en integración", "Terapia tradicional", "Opciones de formato"],
-    color: "secondary",
-    gradient: "from-secondary/20 to-secondary/5"
-  },
-  {
-    title: "Introspección",
-    subtitle: "Exploración Interior",
-    description: "Sesiones guiadas de autoexploración y trabajo interior para conectar con tu sabiduría interna.",
-    features: ["Meditación guiada", "Prácticas mindfulness", "Facilitación del trabajo interior", "Coaching de crecimiento"],
-    color: "accent",
-    gradient: "from-accent/20 to-accent/5"
-  },
-  {
-    title: "Acompañamiento",
-    subtitle: "Apoyo Terapéutico",
-    description: "Acompañamiento profesional durante experiencias de expansión de conciencia con protocolos de seguridad.",
-    features: ["Guía profesional", "Monitoreo de seguridad", "Regulación emocional", "Protocolos de crisis"],
-    color: "sunset",
-    gradient: "from-sunset/20 to-sunset/5"
-  },
-  {
-    title: "Ceremonias",
-    subtitle: "Experiencias Sagradas",
-    description: "Ceremonias con plantas sagradas diseñadas ritualmente con respeto cultural y protocolos tradicionales.",
-    features: ["Ofertas ceremoniales", "Diseño ritual", "Protocolos culturales", "Requisitos de preparación"],
-    color: "sacred",
-    gradient: "from-sacred/20 to-sacred/5"
-  },
-  {
-    title: "Retiros",
-    subtitle: "Experiencias Inmersivas",
-    description: "Retiros multiday combining terapia grupal, naturaleza y ceremonias para una sanación profunda.",
-    features: ["Talleres grupales", "Experiencias inmersivas", "Entornos naturales", "Jornadas de sanación"],
-    color: "primary",
-    gradient: "from-primary/20 to-primary/5"
-  },
-  {
-    title: "Integración",
-    subtitle: "Proceso de Incorporación",
-    description: "Apoyo terapéutico post-ceremonia para procesar e integrar las experiencias en la vida cotidiana.",
-    features: ["Sesiones de procesamiento", "Seguimiento terapéutico", "Integración de estilo de vida", "Grupos de apoyo"],
-    color: "secondary",
-    gradient: "from-secondary/10 to-primary/10"
-  }
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Services = () => {
+  const { t } = useLanguage();
+
+  const services = [
+    {
+      title: t('service.therapy.title'),
+      subtitle: t('service.therapy.subtitle'),
+      description: t('service.therapy.description'),
+      features: [
+        t('service.therapy.features.0'),
+        t('service.therapy.features.1'),
+        t('service.therapy.features.2'),
+        t('service.therapy.features.3')
+      ],
+      color: "secondary",
+      gradient: "from-secondary/20 to-secondary/5"
+    },
+    {
+      title: t('service.introspection.title'),
+      subtitle: t('service.introspection.subtitle'),
+      description: t('service.introspection.description'),
+      features: [
+        t('service.introspection.features.0'),
+        t('service.introspection.features.1'),
+        t('service.introspection.features.2'),
+        t('service.introspection.features.3')
+      ],
+      color: "accent",
+      gradient: "from-accent/20 to-accent/5"
+    },
+    {
+      title: t('service.accompaniment.title'),
+      subtitle: t('service.accompaniment.subtitle'),
+      description: t('service.accompaniment.description'),
+      features: [
+        t('service.accompaniment.features.0'),
+        t('service.accompaniment.features.1'),
+        t('service.accompaniment.features.2'),
+        t('service.accompaniment.features.3')
+      ],
+      color: "sunset",
+      gradient: "from-sunset/20 to-sunset/5"
+    },
+    {
+      title: t('service.ceremonies.title'),
+      subtitle: t('service.ceremonies.subtitle'),
+      description: t('service.ceremonies.description'),
+      features: [
+        t('service.ceremonies.features.0'),
+        t('service.ceremonies.features.1'),
+        t('service.ceremonies.features.2'),
+        t('service.ceremonies.features.3')
+      ],
+      color: "sacred",
+      gradient: "from-sacred/20 to-sacred/5"
+    },
+    {
+      title: t('service.retreats.title'),
+      subtitle: t('service.retreats.subtitle'),
+      description: t('service.retreats.description'),
+      features: [
+        t('service.retreats.features.0'),
+        t('service.retreats.features.1'),
+        t('service.retreats.features.2'),
+        t('service.retreats.features.3')
+      ],
+      color: "primary",
+      gradient: "from-primary/20 to-primary/5"
+    },
+    {
+      title: t('service.integration.title'),
+      subtitle: t('service.integration.subtitle'),
+      description: t('service.integration.description'),
+      features: [
+        t('service.integration.features.0'),
+        t('service.integration.features.1'),
+        t('service.integration.features.2'),
+        t('service.integration.features.3')
+      ],
+      color: "secondary",
+      gradient: "from-secondary/10 to-primary/10"
+    }
+  ];
+
   return (
     <section className="py-20 bg-background" id="services">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-2 bg-accent/10 text-accent font-medium rounded-full text-sm mb-4">
-            NUESTROS SERVICIOS
+            {t('services.section')}
           </span>
           <h2 className="text-4xl md:text-5xl font-heading text-primary mb-6">
-            Caminos de Transformación
+            {t('services.title')}
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Cada servicio está diseñado para acompañarte en diferentes etapas de tu proceso de sanación 
-            y crecimiento personal, desde la preparación hasta la integración completa.
+            {t('services.description')}
           </p>
         </div>
         
@@ -111,7 +143,7 @@ const Services = () => {
                   variant="outline" 
                   className="w-full group-hover:bg-accent/10 group-hover:border-accent/30 transition-smooth"
                 >
-                  Más Información
+                  {t('services.more')}
                 </Button>
               </div>
             </div>
@@ -121,7 +153,7 @@ const Services = () => {
         {/* CTA */}
         <div className="text-center mt-16">
           <Button variant="sacred" size="lg" className="px-12 py-4 text-lg">
-            Agendar Consulta Inicial
+            {t('services.cta')}
           </Button>
         </div>
       </div>

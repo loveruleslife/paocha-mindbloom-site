@@ -1,7 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/contexts/LanguageContext";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 import { useState, useEffect } from "react";
 
 const Header = () => {
+  const { t } = useLanguage();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -15,10 +18,10 @@ const Header = () => {
   }, []);
 
   const navItems = [
-    { label: "Inicio", href: "#home" },
-    { label: "Sobre Paola", href: "#about" },
-    { label: "Servicios", href: "#services" },
-    { label: "Contacto", href: "#contact" },
+    { label: t('nav.home'), href: "#home" },
+    { label: t('nav.about'), href: "#about" },
+    { label: t('nav.services'), href: "#services" },
+    { label: t('nav.contact'), href: "#contact" },
   ];
 
   return (
@@ -50,12 +53,13 @@ const Header = () => {
               {item.label}
             </a>
           ))}
+          <LanguageSwitcher />
         </div>
 
         {/* CTA Button */}
         <div className="hidden md:block">
           <Button variant="consultation" size="sm">
-            Agendar Consulta
+            {t('nav.schedule')}
           </Button>
         </div>
 
@@ -83,9 +87,10 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <div className="pt-4">
+              <div className="pt-4 space-y-3">
+                <LanguageSwitcher />
                 <Button variant="consultation" size="sm" className="w-full">
-                  Agendar Consulta
+                  {t('nav.schedule')}
                 </Button>
               </div>
             </div>

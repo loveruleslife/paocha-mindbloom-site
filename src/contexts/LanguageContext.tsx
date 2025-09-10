@@ -1,0 +1,290 @@
+import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+
+type Language = 'es' | 'en';
+
+interface LanguageContextType {
+  language: Language;
+  setLanguage: (lang: Language) => void;
+  t: (key: string) => string;
+}
+
+const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+
+const translations = {
+  es: {
+    // Header
+    'nav.home': 'Inicio',
+    'nav.about': 'Sobre Paola',
+    'nav.services': 'Servicios',
+    'nav.contact': 'Contacto',
+    'nav.schedule': 'Agendar Consulta',
+    
+    // Hero
+    'hero.tagline': 'PSICÓLOGA PAOLA ECHARTEA CRUZ',
+    'hero.title': 'Paochamama',
+    'hero.subtitle': 'Reprogramando la mente a través de estados no ordinarios de conciencia',
+    'hero.description': 'Acompañamiento terapéutico especializado en expansión de conciencia, ceremonias sagradas e integración holística para el crecimiento personal y la sanación.',
+    'hero.cta.main': 'Agendar Consulta',
+    'hero.cta.secondary': 'Conoce Nuestros Servicios',
+    'hero.credentials.licensed': 'Psicóloga Licenciada',
+    'hero.credentials.specialist': 'Especialista en Conciencia',
+    'hero.credentials.ethical': 'Práctica Ética y Segura',
+    
+    // About
+    'about.section': 'SOBRE PAOLA',
+    'about.title': 'Guiando el Camino Hacia la Transformación de la Conciencia',
+    'about.quote': '"La sanación verdadera ocurre cuando reconectamos con nuestra esencia más profunda"',
+    'about.p1': 'Soy Paola Echartea Cruz, psicóloga especializada en terapias de expansión de conciencia y acompañamiento en estados no ordinarios. Mi enfoque integra la psicología clínica tradicional con sabidurías ancestrales y terapias psicodélicas.',
+    'about.p2': 'Con años de formación en psicología transpersonal y ceremonias sagradas, ofrezco un espacio seguro para la exploración profunda del ser y la sanación de patrones limitantes que nos impiden vivir plenamente.',
+    'about.p3': 'Mi misión es acompañar a las personas en su proceso de autodescubrimiento, brindando herramientas para integrar las experiencias transformadoras en su vida cotidiana y generar cambios duraderos.',
+    'about.specialties.transpersonal': 'Psicología Transpersonal',
+    'about.specialties.psychedelic': 'Terapia Psicodélica',
+    'about.specialties.ceremonies': 'Ceremonias Sagradas',
+    'about.specialties.integration': 'Integración Holística',
+    'about.cta': 'Conoce Mi Enfoque',
+    
+    // Services
+    'services.section': 'NUESTROS SERVICIOS',
+    'services.title': 'Caminos de Transformación',
+    'services.description': 'Cada servicio está diseñado para acompañarte en diferentes etapas de tu proceso de sanación y crecimiento personal, desde la preparación hasta la integración completa.',
+    'services.cta': 'Agendar Consulta Inicial',
+    'services.more': 'Más Información',
+    
+    // Service items
+    'service.therapy.title': 'Terapia',
+    'service.therapy.subtitle': 'Sesiones Individuales',
+    'service.therapy.description': 'Psicoterapia especializada combinando enfoques tradicionales con trabajo de conciencia para un crecimiento integral.',
+    'service.therapy.features': ['Preparación terapéutica', 'Apoyo en integración', 'Terapia tradicional', 'Opciones de formato'],
+    
+    'service.introspection.title': 'Introspección',
+    'service.introspection.subtitle': 'Exploración Interior',
+    'service.introspection.description': 'Sesiones guiadas de autoexploración y trabajo interior para conectar con tu sabiduría interna.',
+    'service.introspection.features': ['Meditación guiada', 'Prácticas mindfulness', 'Facilitación del trabajo interior', 'Coaching de crecimiento'],
+    
+    'service.accompaniment.title': 'Acompañamiento',
+    'service.accompaniment.subtitle': 'Apoyo Terapéutico',
+    'service.accompaniment.description': 'Acompañamiento profesional durante experiencias de expansión de conciencia con protocolos de seguridad.',
+    'service.accompaniment.features': ['Guía profesional', 'Monitoreo de seguridad', 'Regulación emocional', 'Protocolos de crisis'],
+    
+    'service.ceremonies.title': 'Ceremonias',
+    'service.ceremonies.subtitle': 'Experiencias Sagradas',
+    'service.ceremonies.description': 'Ceremonias con plantas sagradas diseñadas ritualmente con respeto cultural y protocolos tradicionales.',
+    'service.ceremonies.features': ['Ofertas ceremoniales', 'Diseño ritual', 'Protocolos culturales', 'Requisitos de preparación'],
+    
+    'service.retreats.title': 'Retiros',
+    'service.retreats.subtitle': 'Experiencias Inmersivas',
+    'service.retreats.description': 'Retiros multiday combining terapia grupal, naturaleza y ceremonias para una sanación profunda.',
+    'service.retreats.features': ['Talleres grupales', 'Experiencias inmersivas', 'Entornos naturales', 'Jornadas de sanación'],
+    
+    'service.integration.title': 'Integración',
+    'service.integration.subtitle': 'Proceso de Incorporación',
+    'service.integration.description': 'Apoyo terapéutico post-ceremonia para procesar e integrar las experiencias en la vida cotidiana.',
+    'service.integration.features': ['Sesiones de procesamiento', 'Seguimiento terapéutico', 'Integración de estilo de vida', 'Grupos de apoyo'],
+    
+    // Contact
+    'contact.section': 'CONTACTO',
+    'contact.title': 'Inicia Tu Camino de Transformación',
+    'contact.description': 'Da el primer paso hacia tu sanación y crecimiento personal. Estoy aquí para acompañarte en este viaje sagrado.',
+    'contact.info.title': 'Información de Contacto',
+    'contact.info.consultation': 'Consulta Inicial',
+    'contact.info.consultation.desc': 'Sesión de evaluación y orientación personalizada para conocer tu proceso',
+    'contact.info.modalities': 'Modalidades',
+    'contact.info.modalities.desc': 'Sesiones presenciales y online según tus necesidades y ubicación',
+    'contact.info.confidentiality': 'Confidencialidad',
+    'contact.info.confidentiality.desc': 'Todos los procesos se realizan bajo estrictos protocolos de privacidad',
+    'contact.info.emergency': 'Emergencias',
+    'contact.info.emergency.desc': 'Protocolos de apoyo y líneas de crisis disponibles 24/7',
+    'contact.form.title': 'Solicitar Consulta',
+    'contact.form.name': 'Nombre Completo',
+    'contact.form.name.placeholder': 'Tu nombre completo',
+    'contact.form.email': 'Correo Electrónico',
+    'contact.form.email.placeholder': 'tu@correo.com',
+    'contact.form.type': 'Tipo de Consulta',
+    'contact.form.message': 'Mensaje',
+    'contact.form.message.placeholder': 'Cuéntame brevemente sobre tu proceso o lo que buscas...',
+    'contact.form.submit': 'Enviar Solicitud',
+    'contact.trust': 'Al contactarme, das el primer paso en un proceso de acompañamiento ético, profesional y respetuoso hacia tu bienestar integral.',
+    
+    // Footer
+    'footer.description': 'Acompañamiento terapéutico especializado en expansión de conciencia y transformación personal a través de estados no ordinarios.',
+    'footer.services.title': 'Servicios',
+    'footer.services.individual': 'Terapia Individual',
+    'footer.services.introspection': 'Introspección Guiada',
+    'footer.services.accompaniment': 'Acompañamiento',
+    'footer.services.ceremonies': 'Ceremonias Sagradas',
+    'footer.services.retreats': 'Retiros Terapéuticos',
+    'footer.services.integration': 'Integración',
+    'footer.contact.title': 'Contacto',
+    'footer.contact.consultations': 'Consultas',
+    'footer.contact.consultations.desc': 'Agendar cita inicial',
+    'footer.contact.modalities': 'Modalidades',
+    'footer.contact.modalities.desc': 'Presencial y Online',
+    'footer.contact.emergency': 'Emergencias',
+    'footer.contact.emergency.desc': 'Apoyo 24/7 disponible',
+    'footer.copyright': '© 2024 Paochamama - Psicóloga Paola Echartea Cruz. Todos los derechos reservados.',
+    'footer.privacy': 'Privacidad',
+    'footer.terms': 'Términos',
+    'footer.ethics': 'Ética',
+  },
+  en: {
+    // Header
+    'nav.home': 'Home',
+    'nav.about': 'About Paola',
+    'nav.services': 'Services',
+    'nav.contact': 'Contact',
+    'nav.schedule': 'Schedule Consultation',
+    
+    // Hero
+    'hero.tagline': 'PSYCHOLOGIST PAOLA ECHARTEA CRUZ',
+    'hero.title': 'Paochamama',
+    'hero.subtitle': 'Reprogramming the mind through non-ordinary states of consciousness',
+    'hero.description': 'Specialized therapeutic accompaniment in consciousness expansion, sacred ceremonies and holistic integration for personal growth and healing.',
+    'hero.cta.main': 'Schedule Consultation',
+    'hero.cta.secondary': 'Learn About Our Services',
+    'hero.credentials.licensed': 'Licensed Psychologist',
+    'hero.credentials.specialist': 'Consciousness Specialist',
+    'hero.credentials.ethical': 'Ethical & Safe Practice',
+    
+    // About
+    'about.section': 'ABOUT PAOLA',
+    'about.title': 'Guiding the Path Toward Consciousness Transformation',
+    'about.quote': '"True healing occurs when we reconnect with our deepest essence"',
+    'about.p1': 'I am Paola Echartea Cruz, a psychologist specialized in consciousness expansion therapies and accompaniment in non-ordinary states. My approach integrates traditional clinical psychology with ancestral wisdom and psychedelic therapies.',
+    'about.p2': 'With years of training in transpersonal psychology and sacred ceremonies, I offer a safe space for deep exploration of the self and healing of limiting patterns that prevent us from living fully.',
+    'about.p3': 'My mission is to accompany people in their process of self-discovery, providing tools to integrate transformative experiences into their daily lives and generate lasting changes.',
+    'about.specialties.transpersonal': 'Transpersonal Psychology',
+    'about.specialties.psychedelic': 'Psychedelic Therapy',
+    'about.specialties.ceremonies': 'Sacred Ceremonies',
+    'about.specialties.integration': 'Holistic Integration',
+    'about.cta': 'Learn About My Approach',
+    
+    // Services
+    'services.section': 'OUR SERVICES',
+    'services.title': 'Transformation Pathways',
+    'services.description': 'Each service is designed to accompany you through different stages of your healing and personal growth process, from preparation to complete integration.',
+    'services.cta': 'Schedule Initial Consultation',
+    'services.more': 'More Information',
+    
+    // Service items
+    'service.therapy.title': 'Therapy',
+    'service.therapy.subtitle': 'Individual Sessions',
+    'service.therapy.description': 'Specialized psychotherapy combining traditional approaches with consciousness work for integral growth.',
+    'service.therapy.features': ['Therapeutic preparation', 'Integration support', 'Traditional therapy', 'Format options'],
+    
+    'service.introspection.title': 'Introspection',
+    'service.introspection.subtitle': 'Inner Exploration',
+    'service.introspection.description': 'Guided self-exploration and inner work sessions to connect with your internal wisdom.',
+    'service.introspection.features': ['Guided meditation', 'Mindfulness practices', 'Inner work facilitation', 'Growth coaching'],
+    
+    'service.accompaniment.title': 'Accompaniment',
+    'service.accompaniment.subtitle': 'Therapeutic Support',
+    'service.accompaniment.description': 'Professional accompaniment during consciousness expansion experiences with safety protocols.',
+    'service.accompaniment.features': ['Professional guidance', 'Safety monitoring', 'Emotional regulation', 'Crisis protocols'],
+    
+    'service.ceremonies.title': 'Ceremonies',
+    'service.ceremonies.subtitle': 'Sacred Experiences',
+    'service.ceremonies.description': 'Sacred plant ceremonies ritually designed with cultural respect and traditional protocols.',
+    'service.ceremonies.features': ['Ceremonial offerings', 'Ritual design', 'Cultural protocols', 'Preparation requirements'],
+    
+    'service.retreats.title': 'Retreats',
+    'service.retreats.subtitle': 'Immersive Experiences',
+    'service.retreats.description': 'Multi-day retreats combining group therapy, nature and ceremonies for deep healing.',
+    'service.retreats.features': ['Group workshops', 'Immersive experiences', 'Natural environments', 'Healing journeys'],
+    
+    'service.integration.title': 'Integration',
+    'service.integration.subtitle': 'Incorporation Process',
+    'service.integration.description': 'Post-ceremony therapeutic support to process and integrate experiences into daily life.',
+    'service.integration.features': ['Processing sessions', 'Therapeutic follow-up', 'Lifestyle integration', 'Support groups'],
+    
+    // Contact
+    'contact.section': 'CONTACT',
+    'contact.title': 'Begin Your Transformation Journey',
+    'contact.description': 'Take the first step toward your healing and personal growth. I am here to accompany you on this sacred journey.',
+    'contact.info.title': 'Contact Information',
+    'contact.info.consultation': 'Initial Consultation',
+    'contact.info.consultation.desc': 'Personalized evaluation and orientation session to understand your process',
+    'contact.info.modalities': 'Modalities',
+    'contact.info.modalities.desc': 'In-person and online sessions according to your needs and location',
+    'contact.info.confidentiality': 'Confidentiality',
+    'contact.info.confidentiality.desc': 'All processes are conducted under strict privacy protocols',
+    'contact.info.emergency': 'Emergencies',
+    'contact.info.emergency.desc': 'Support protocols and crisis lines available 24/7',
+    'contact.form.title': 'Request Consultation',
+    'contact.form.name': 'Full Name',
+    'contact.form.name.placeholder': 'Your full name',
+    'contact.form.email': 'Email Address',
+    'contact.form.email.placeholder': 'your@email.com',
+    'contact.form.type': 'Consultation Type',
+    'contact.form.message': 'Message',
+    'contact.form.message.placeholder': 'Tell me briefly about your process or what you are looking for...',
+    'contact.form.submit': 'Submit Request',
+    'contact.trust': 'By contacting me, you take the first step in an ethical, professional and respectful process of accompaniment toward your integral well-being.',
+    
+    // Footer
+    'footer.description': 'Specialized therapeutic accompaniment in consciousness expansion and personal transformation through non-ordinary states.',
+    'footer.services.title': 'Services',
+    'footer.services.individual': 'Individual Therapy',
+    'footer.services.introspection': 'Guided Introspection',
+    'footer.services.accompaniment': 'Accompaniment',
+    'footer.services.ceremonies': 'Sacred Ceremonies',
+    'footer.services.retreats': 'Therapeutic Retreats',
+    'footer.services.integration': 'Integration',
+    'footer.contact.title': 'Contact',
+    'footer.contact.consultations': 'Consultations',
+    'footer.contact.consultations.desc': 'Schedule initial appointment',
+    'footer.contact.modalities': 'Modalities',
+    'footer.contact.modalities.desc': 'In-person and Online',
+    'footer.contact.emergency': 'Emergencies',
+    'footer.contact.emergency.desc': '24/7 support available',
+    'footer.copyright': '© 2024 Paochamama - Psychologist Paola Echartea Cruz. All rights reserved.',
+    'footer.privacy': 'Privacy',
+    'footer.terms': 'Terms',
+    'footer.ethics': 'Ethics',
+  }
+};
+
+interface LanguageProviderProps {
+  children: ReactNode;
+}
+
+export const LanguageProvider = ({ children }: LanguageProviderProps) => {
+  const [language, setLanguage] = useState<Language>('es');
+
+  useEffect(() => {
+    const savedLanguage = localStorage.getItem('paochamama-language') as Language;
+    if (savedLanguage && (savedLanguage === 'es' || savedLanguage === 'en')) {
+      setLanguage(savedLanguage);
+    }
+    
+    // Update document language
+    document.documentElement.lang = language;
+  }, [language]);
+
+  const handleSetLanguage = (lang: Language) => {
+    setLanguage(lang);
+    localStorage.setItem('paochamama-language', lang);
+    document.documentElement.lang = lang;
+  };
+
+  const t = (key: string): string => {
+    const translation = translations[language][key as keyof typeof translations[typeof language]];
+    if (Array.isArray(translation)) {
+      return translation.join(', ');
+    }
+    return translation || key;
+  };
+
+  return (
+    <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage, t }}>
+      {children}
+    </LanguageContext.Provider>
+  );
+};
+
+export const useLanguage = () => {
+  const context = useContext(LanguageContext);
+  if (context === undefined) {
+    throw new Error('useLanguage must be used within a LanguageProvider');
+  }
+  return context;
+};
