@@ -9,9 +9,10 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image side */}
           <div className="relative">
-            <div className="aspect-[2/3] bg-gradient-to-br from-accent/20 to-sacred/20 rounded-2xl p-4 flex items-center justify-center">
-              <div className="text-center">
-                <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+            <div className="bg-gradient-to-br from-accent/20 to-sacred/20 rounded-2xl p-6">
+              {/* Logo, Quote, and Photo Section */}
+              <div className="text-center mb-8">
+                <div className="w-20 h-20 mx-auto mb-4 flex items-center justify-center">
                   <img 
                     src="/lovable-uploads/c2b70d41-42e1-4a47-a06d-51aaf2be7517.png" 
                     alt="PaochaMama logo with sacred geometry"
@@ -21,7 +22,7 @@ const About = () => {
                 <p className="text-muted-foreground italic text-sm mb-4">
                   {t('about.quote')}
                 </p>
-                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto border-2 border-sacred/20">
+                <div className="w-24 h-24 rounded-full overflow-hidden mx-auto border-2 border-sacred/20">
                   <img 
                     src="/lovable-uploads/e09f1065-92d1-43f0-bb40-215f62ba27af.png" 
                     alt="Paola - Transpersonal Therapist"
@@ -29,11 +30,9 @@ const About = () => {
                   />
                 </div>
               </div>
-            </div>
-            
-            {/* Gallery section */}
-            <div className="mt-8">
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              
+              {/* Gallery Section */}
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                 <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
                   <img 
                     src="/lovable-uploads/3f452383-bb86-4176-a866-721098e83996.png" 
