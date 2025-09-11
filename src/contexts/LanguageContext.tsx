@@ -53,7 +53,7 @@ const translations = {
     // Service items
     'service.therapy.title': 'Psicoterapia Individual Online',
     'service.therapy.subtitle': 'Sesiones 1-1 por Zoom',
-    'service.therapy.description': 'Sesiones de 1-1 por zoom acompañadas de una psicóloga con diversas bases terapéuticas y psicológicas para acompañarte en tu proceso de introspección y autoconocimiento.',
+    'service.therapy.description': 'Sesiones de 1-1 por zoom acompañadas de una psicóloga con diversas bases terapéuticas y psicológicas para acompañarte en tu proceso de introspección y autoconocimiento. Técnicas de autoconocimiento, conexión más sólida contigo, preguntas de autorreflexión, escucha activa, empatía y acompañamiento, actividades de escritura.',
     'service.therapy.features': ['Técnicas de autoconocimiento', 'Conexión más sólida contigo', 'Preguntas de autorreflexión', 'Escucha activa', 'Empatía y acompañamiento', 'Actividades de escritura'],
     
     'service.introspection.title': 'Círculos de Mujeres',
