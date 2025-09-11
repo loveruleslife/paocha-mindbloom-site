@@ -61,10 +61,10 @@ const translations = {
     'service.introspection.description': 'En estos espacios se tocan diferentes temas cada semana, con el objetivo de conocerte mejor, obtener preguntas de reflexión e introspección y aprender en conjunto a sobrellevar diversas situaciones personales. Dirigido únicamente a mujeres de 21-70 años. Tiene una duración de 26 semanas (6 meses). Ofrezco las sesiones en inglés y en español. Tiempo de cada sesión: 3 horas. Nos reunimos 1 vez por semana. Horario: Inglés: martes 5-8 pm MXCT, Español: jueves 5-8 pm MXCT. Costo: $25 USD cada sesión. Cupo limitado.',
     'service.introspection.features': ['26 semanas de duración', 'Sesiones de 3 horas', 'Grupos en español e inglés', 'Solo mujeres 21-70 años', 'Cupo limitado', '$25 USD por sesión'],
     
-    'service.accompaniment.title': 'Acompañamiento',
-    'service.accompaniment.subtitle': 'Apoyo Terapéutico',
-    'service.accompaniment.description': 'Acompañamiento profesional durante experiencias de expansión de conciencia con protocolos de seguridad.',
-    'service.accompaniment.features': ['Guía profesional', 'Monitoreo de seguridad', 'Regulación emocional', 'Protocolos de crisis'],
+    'service.accompaniment.title': 'Círculos Mixtos (Hombres y Mujeres)',
+    'service.accompaniment.subtitle': 'Espacios de Crecimiento Conjunto',
+    'service.accompaniment.description': 'En estos espacios se tocan diferentes temas cada semana, con el objetivo de conocerte mejor, obtener preguntas de reflexión e introspección y aprender en conjunto a sobrellevar diversas situaciones personales. Dirigido a hombres y mujeres de 21-70 años. Tiene una duración de 26 semanas (6 meses). Ofrezco las sesiones en inglés y en español. Tiempo de cada sesión: 3 horas. Nos reunimos 1 vez por semana. Horario: inglés: martes 5-8 pm MXCT, español: jueves 5-8 pm MXCT. Costo: $25 USD cada sesión. Cupo limitado.',
+    'service.accompaniment.features': ['26 semanas de duración', 'Sesiones de 3 horas', 'Grupos en español e inglés', 'Hombres y mujeres 21-70 años', 'Cupo limitado', '$25 USD por sesión'],
     
     'service.ceremonies.title': 'Ceremonias',
     'service.ceremonies.subtitle': 'Experiencias Sagradas',
@@ -165,10 +165,10 @@ const translations = {
     'service.introspection.description': 'In these spaces we explore different topics each week, with the goal of getting to know yourself better, obtaining reflection and introspection questions, and learning together to cope with various personal situations. Exclusively for women aged 21-70. Duration of 26 weeks (6 months). I offer sessions in English and Spanish. Session time: 3 hours. We meet once a week. Schedule: English: Tuesday 5-8 pm MXCT, Spanish: Thursday 5-8 pm MXCT. Cost: $25 USD per session. Limited capacity.',
     'service.introspection.features': ['26-week duration', '3-hour sessions', 'Spanish and English groups', 'Women only 21-70 years', 'Limited capacity', '$25 USD per session'],
     
-    'service.accompaniment.title': 'Accompaniment',
-    'service.accompaniment.subtitle': 'Therapeutic Support',
-    'service.accompaniment.description': 'Professional accompaniment during consciousness expansion experiences with safety protocols.',
-    'service.accompaniment.features': ['Professional guidance', 'Safety monitoring', 'Emotional regulation', 'Crisis protocols'],
+    'service.accompaniment.title': 'Mixed Circles (Men and Women)',
+    'service.accompaniment.subtitle': 'Joint Growth Spaces',
+    'service.accompaniment.description': 'In these spaces we explore different topics each week, with the goal of getting to know yourself better, obtaining reflection and introspection questions, and learning together to cope with various personal situations. For men and women aged 21-70. Duration of 26 weeks (6 months). I offer sessions in English and Spanish. Session time: 3 hours. We meet once a week. Schedule: English: Tuesday 5-8 pm MXCT, Spanish: Thursday 5-8 pm MXCT. Cost: $25 USD per session. Limited capacity.',
+    'service.accompaniment.features': ['26-week duration', '3-hour sessions', 'Spanish and English groups', 'Men and women 21-70 years', 'Limited capacity', '$25 USD per session'],
     
     'service.ceremonies.title': 'Ceremonies',
     'service.ceremonies.subtitle': 'Sacred Experiences',
