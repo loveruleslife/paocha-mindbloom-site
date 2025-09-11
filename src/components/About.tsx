@@ -9,20 +9,20 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image side */}
           <div className="relative">
-            <div className="bg-gradient-to-br from-accent/20 to-sacred/20 rounded-2xl p-6">
+            <div className="bg-gradient-to-br from-accent/20 to-sacred/20 rounded-2xl p-8">
               {/* Logo, Quote, and Photo Section */}
-              <div className="flex items-center justify-between mb-8 gap-4">
-                <div className="w-16 h-16 flex items-center justify-center flex-shrink-0">
+              <div className="flex items-center justify-between mb-8 gap-6">
+                <div className="w-24 h-24 flex items-center justify-center flex-shrink-0">
                   <img 
                     src="/lovable-uploads/c2b70d41-42e1-4a47-a06d-51aaf2be7517.png" 
                     alt="PaochaMama logo with sacred geometry"
                     className="w-full h-full object-contain animate-sacred-pulse"
                   />
                 </div>
-                <p className="text-muted-foreground italic text-sm text-center flex-1 px-4">
+                <p className="text-muted-foreground italic text-base text-center flex-1 px-4">
                   {t('about.quote')}
                 </p>
-                <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-sacred/20 flex-shrink-0">
+                <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-sacred/20 flex-shrink-0">
                   <img 
                     src="/lovable-uploads/e09f1065-92d1-43f0-bb40-215f62ba27af.png" 
                     alt="Paola - Transpersonal Therapist"
