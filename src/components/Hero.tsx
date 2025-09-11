@@ -1,16 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import heroMandala from "@/assets/hero-mandala.jpg";
-
 const Hero = () => {
-  const { t } = useLanguage();
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  const {
+    t
+  } = useLanguage();
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background with sacred geometry */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
-        style={{ backgroundImage: `url(${heroMandala})` }}
-      />
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20" style={{
+      backgroundImage: `url(${heroMandala})`
+    }} />
       <div className="absolute inset-0 bg-gentle-gradient" />
       <div className="absolute inset-0 sacred-pattern" />
       
@@ -40,9 +39,7 @@ const Hero = () => {
         </div>
         
         <div className="flex justify-center">
-          <Button variant="sacred" size="lg" className="px-8 py-4 text-lg">
-            {t('hero.cta.main')}
-          </Button>
+          
         </div>
         
         {/* Trust indicators */}
@@ -61,8 +58,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
