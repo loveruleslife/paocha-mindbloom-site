@@ -56,10 +56,10 @@ const translations = {
     'service.therapy.description': 'Sesiones de 1-1 por zoom acompañadas de una psicóloga con diversas bases terapéuticas y psicológicas para acompañarte en tu proceso de introspección y autoconocimiento.',
     'service.therapy.features': ['Técnicas de autoconocimiento', 'Conexión más sólida contigo', 'Preguntas de autorreflexión', 'Escucha activa', 'Empatía y acompañamiento', 'Actividades de escritura'],
     
-    'service.introspection.title': 'Introspección',
-    'service.introspection.subtitle': 'Exploración Interior',
-    'service.introspection.description': 'Sesiones guiadas de autoexploración y trabajo interior para conectar con tu sabiduría interna.',
-    'service.introspection.features': ['Meditación guiada', 'Prácticas mindfulness', 'Facilitación del trabajo interior', 'Coaching de crecimiento'],
+    'service.introspection.title': 'Círculos de Mujeres',
+    'service.introspection.subtitle': 'Espacios de Crecimiento Femenino',
+    'service.introspection.description': 'En estos espacios se tocan diferentes temas cada semana, con el objetivo de conocerte mejor, obtener preguntas de reflexión e introspección y aprender en conjunto a sobrellevar diversas situaciones personales. Dirigido únicamente a mujeres de 21-70 años. Tiene una duración de 26 semanas (6 meses). Ofrezco las sesiones en inglés y en español. Tiempo de cada sesión: 3 horas. Nos reunimos 1 vez por semana. Horario: Inglés: martes 5-8 pm MXCT, Español: jueves 5-8 pm MXCT. Costo: $25 USD cada sesión. Cupo limitado.',
+    'service.introspection.features': ['26 semanas de duración', 'Sesiones de 3 horas', 'Grupos en español e inglés', 'Solo mujeres 21-70 años', 'Cupo limitado', '$25 USD por sesión'],
     
     'service.accompaniment.title': 'Acompañamiento',
     'service.accompaniment.subtitle': 'Apoyo Terapéutico',
@@ -160,10 +160,10 @@ const translations = {
     'service.therapy.description': '1-on-1 Zoom sessions accompanied by a psychologist with diverse therapeutic and psychological foundations to support you in your introspection and self-knowledge process.',
     'service.therapy.features': ['Self-knowledge techniques', 'Stronger connection with yourself', 'Self-reflection questions', 'Active listening', 'Empathy and support', 'Writing activities'],
     
-    'service.introspection.title': 'Introspection',
-    'service.introspection.subtitle': 'Inner Exploration',
-    'service.introspection.description': 'Guided self-exploration and inner work sessions to connect with your internal wisdom.',
-    'service.introspection.features': ['Guided meditation', 'Mindfulness practices', 'Inner work facilitation', 'Growth coaching'],
+    'service.introspection.title': "Women's Circles",
+    'service.introspection.subtitle': 'Feminine Growth Spaces',
+    'service.introspection.description': 'In these spaces we explore different topics each week, with the goal of getting to know yourself better, obtaining reflection and introspection questions, and learning together to cope with various personal situations. Exclusively for women aged 21-70. Duration of 26 weeks (6 months). I offer sessions in English and Spanish. Session time: 3 hours. We meet once a week. Schedule: English: Tuesday 5-8 pm MXCT, Spanish: Thursday 5-8 pm MXCT. Cost: $25 USD per session. Limited capacity.',
+    'service.introspection.features': ['26-week duration', '3-hour sessions', 'Spanish and English groups', 'Women only 21-70 years', 'Limited capacity', '$25 USD per session'],
     
     'service.accompaniment.title': 'Accompaniment',
     'service.accompaniment.subtitle': 'Therapeutic Support',
