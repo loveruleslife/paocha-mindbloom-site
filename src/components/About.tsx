@@ -9,14 +9,25 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image side */}
           <div className="relative">
-            <div className="aspect-[4/5] bg-gradient-to-br from-accent/20 to-sacred/20 rounded-2xl p-8 flex items-center justify-center">
+            <div className="aspect-[2/2.5] bg-gradient-to-br from-accent/20 to-sacred/20 rounded-2xl p-6 flex items-center justify-center">
               <div className="text-center">
-                <div className="w-32 h-32 bg-earth-gradient rounded-full mx-auto mb-6 flex items-center justify-center animate-sacred-pulse">
-                  <span className="text-4xl text-white font-heading">P</span>
+                <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
+                  <img 
+                    src="/lovable-uploads/c2b70d41-42e1-4a47-a06d-51aaf2be7517.png" 
+                    alt="PaochaMama logo with sacred geometry"
+                    className="w-full h-full object-contain animate-sacred-pulse"
+                  />
                 </div>
-                <p className="text-muted-foreground italic">
+                <p className="text-muted-foreground italic text-sm mb-4">
                   {t('about.quote')}
                 </p>
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto border-2 border-sacred/20">
+                  <img 
+                    src="/lovable-uploads/e09f1065-92d1-43f0-bb40-215f62ba27af.png" 
+                    alt="Paola - Transpersonal Therapist"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
             </div>
             
