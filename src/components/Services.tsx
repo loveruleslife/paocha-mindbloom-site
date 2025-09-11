@@ -129,22 +129,7 @@ const Services = () => {
                   </p>
                 </div>
                 
-                {/* Features */}
-                <div className="space-y-3 mb-8">
-                  {service.features.map((feature, idx) => (
-                    <div key={idx} className="flex items-center gap-3">
-                      <div className={`w-1.5 h-1.5 bg-${service.color} rounded-full`} />
-                      <span className="text-sm text-muted-foreground">{feature}</span>
-                    </div>
-                  ))}
-                </div>
-                
-                <Button 
-                  variant="outline" 
-                  className="w-full group-hover:bg-accent/10 group-hover:border-accent/30 transition-smooth"
-                >
-                  {t('services.more')}
-                </Button>
+                {/* Content only - features and buttons removed */}
               </div>
             </div>
           ))}

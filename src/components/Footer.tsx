@@ -38,12 +38,12 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold text-lg mb-6">{t('footer.services.title')}</h4>
             <ul className="space-y-3">
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('footer.services.individual')}</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('footer.services.introspection')}</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('footer.services.accompaniment')}</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('footer.services.ceremonies')}</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('footer.services.retreats')}</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('footer.services.integration')}</a></li>
+              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Individual Online Psychotherapy</a></li>
+              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Women's Circles</a></li>
+              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Mixed Circles (Men and Women)</a></li>
+              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Therapy With Psychedelics</a></li>
+              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Preparation Prior To Therapy With Psychedelics</a></li>
+              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Integration</a></li>
             </ul>
           </div>
 
@@ -58,10 +58,6 @@ const Footer = () => {
               <div>
                 <p className="text-primary-foreground/60 text-sm mb-1">{t('footer.contact.modalities')}</p>
                 <p className="text-primary-foreground/80">{t('footer.contact.modalities.desc')}</p>
-              </div>
-              <div>
-                <p className="text-primary-foreground/60 text-sm mb-1">{t('footer.contact.emergency')}</p>
-                <p className="text-primary-foreground/80">{t('footer.contact.emergency.desc')}</p>
               </div>
             </div>
           </div>
