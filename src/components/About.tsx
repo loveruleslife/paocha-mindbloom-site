@@ -9,7 +9,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image side */}
           <div className="relative">
-            <div className="aspect-[2/2.5] bg-gradient-to-br from-accent/20 to-sacred/20 rounded-2xl p-6 flex items-center justify-center">
+            <div className="aspect-[2/3] bg-gradient-to-br from-accent/20 to-sacred/20 rounded-2xl p-4 flex items-center justify-center">
               <div className="text-center">
                 <div className="w-24 h-24 mx-auto mb-4 flex items-center justify-center">
                   <img 
