@@ -20,6 +20,68 @@ const About = () => {
               </div>
             </div>
             
+            {/* Gallery section */}
+            <div className="mt-8">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
+                  <img 
+                    src="/lovable-uploads/3f452383-bb86-4176-a866-721098e83996.png" 
+                    alt="Ceremonial circle with oracle cards and healing elements"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
+                  <img 
+                    src="/lovable-uploads/ee28387e-6c18-488c-b9a5-b24b5c485834.png" 
+                    alt="Art therapy session with expressive painting"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
+                  <img 
+                    src="/lovable-uploads/f03aa7c0-a275-4401-a298-0265c4838a5d.png" 
+                    alt="Sacred ceremony setup with ritual bowls and natural elements"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
+                  <img 
+                    src="/lovable-uploads/95f72e56-96da-499b-98ae-2604d276c123.png" 
+                    alt="Sound healing with Tibetan singing bowls"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
+                  <img 
+                    src="/lovable-uploads/06d5bcbd-dd44-435c-b605-ee272d3353b7.png" 
+                    alt="Psilocybin healing ceremony information"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
+                  <img 
+                    src="/lovable-uploads/ada0e47d-2749-4558-9f09-a1ca7940dd92.png" 
+                    alt="Creative art therapy session outdoors"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
+                  <img 
+                    src="/lovable-uploads/786139ab-78c5-425c-80fc-37f5f2ac4d64.png" 
+                    alt="Art journal with therapeutic drawings"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
+                  <img 
+                    src="/lovable-uploads/34b3ba06-f912-44a2-a69f-dfd1d3b9be6d.png" 
+                    alt="Sacred medicine preparation"
+                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+              </div>
+            </div>
+            
             {/* Floating elements */}
             <div className="absolute -top-6 -left-6 w-12 h-12 bg-accent/30 rounded-full animate-float" />
             <div className="absolute -bottom-4 -right-4 w-8 h-8 bg-sacred/30 rounded-full animate-float delay-1000" />
