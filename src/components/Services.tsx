@@ -13,9 +13,7 @@ const Services = () => {
         t('service.therapy.features.0'),
         t('service.therapy.features.1'),
         t('service.therapy.features.2'),
-        t('service.therapy.features.3'),
-        t('service.therapy.features.4'),
-        t('service.therapy.features.5')
+        t('service.therapy.features.3')
       ],
       color: "secondary",
       gradient: "from-secondary/20 to-secondary/5"
@@ -131,17 +129,7 @@ const Services = () => {
                   </p>
                 </div>
                 
-                {/* Features list */}
-                <ul className="space-y-3">
-                  {service.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-start gap-3">
-                      <div className={`w-2 h-2 bg-${service.color} rounded-full mt-2 flex-shrink-0`} />
-                      <span className="text-muted-foreground text-sm">
-                        {feature}
-                      </span>
-                    </li>
-                  ))}
-                </ul>
+                {/* Content only - features and buttons removed */}
               </div>
             </div>
           ))}
