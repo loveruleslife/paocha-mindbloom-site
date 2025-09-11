@@ -51,10 +51,10 @@ const translations = {
     'services.more': 'Más Información',
     
     // Service items
-    'service.therapy.title': 'Terapia',
-    'service.therapy.subtitle': 'Sesiones Individuales',
-    'service.therapy.description': 'Psicoterapia especializada combinando enfoques tradicionales con trabajo de conciencia para un crecimiento integral.',
-    'service.therapy.features': ['Preparación terapéutica', 'Apoyo en integración', 'Terapia tradicional', 'Opciones de formato'],
+    'service.therapy.title': 'Psicoterapia Individual Online',
+    'service.therapy.subtitle': 'Sesiones 1-1 por Zoom',
+    'service.therapy.description': 'Sesiones de 1-1 por zoom acompañadas de una psicóloga con diversas bases terapéuticas y psicológicas para acompañarte en tu proceso de introspección y autoconocimiento.',
+    'service.therapy.features': ['Técnicas de autoconocimiento', 'Conexión más sólida contigo', 'Preguntas de autorreflexión', 'Escucha activa', 'Empatía y acompañamiento', 'Actividades de escritura'],
     
     'service.introspection.title': 'Introspección',
     'service.introspection.subtitle': 'Exploración Interior',
@@ -155,10 +155,10 @@ const translations = {
     'services.more': 'More Information',
     
     // Service items
-    'service.therapy.title': 'Therapy',
-    'service.therapy.subtitle': 'Individual Sessions',
-    'service.therapy.description': 'Specialized psychotherapy combining traditional approaches with consciousness work for integral growth.',
-    'service.therapy.features': ['Therapeutic preparation', 'Integration support', 'Traditional therapy', 'Format options'],
+    'service.therapy.title': 'Individual Online Psychotherapy',
+    'service.therapy.subtitle': '1-on-1 Zoom Sessions',
+    'service.therapy.description': '1-on-1 Zoom sessions accompanied by a psychologist with diverse therapeutic and psychological foundations to support you in your introspection and self-knowledge process.',
+    'service.therapy.features': ['Self-knowledge techniques', 'Stronger connection with yourself', 'Self-reflection questions', 'Active listening', 'Empathy and support', 'Writing activities'],
     
     'service.introspection.title': 'Introspection',
     'service.introspection.subtitle': 'Inner Exploration',
