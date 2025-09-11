@@ -39,12 +39,9 @@ const Hero = () => {
           </p>
         </div>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div className="flex justify-center">
           <Button variant="sacred" size="lg" className="px-8 py-4 text-lg">
             {t('hero.cta.main')}
-          </Button>
-          <Button variant="consultation" size="lg" className="px-8 py-4 text-lg">
-            {t('hero.cta.secondary')}
           </Button>
         </div>
         

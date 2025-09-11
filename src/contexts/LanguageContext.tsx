@@ -44,7 +44,7 @@ const translations = {
     'about.cta': 'Conoce Mi Enfoque',
     
     // Services
-    'services.section': 'NUESTROS SERVICIOS',
+    'services.section': 'SERVICIOS OFRECIDOS',
     'services.title': 'Caminos de Transformación',
     'services.description': 'Cada servicio está diseñado para acompañarte en diferentes etapas de tu proceso de sanación y crecimiento personal, desde la preparación hasta la integración completa.',
     'services.cta': 'Agendar Consulta Inicial',
@@ -148,7 +148,7 @@ const translations = {
     'about.cta': 'Learn About My Approach',
     
     // Services
-    'services.section': 'OUR SERVICES',
+    'services.section': 'SERVICES OFFERED',
     'services.title': 'Transformation Pathways',
     'services.description': 'Each service is designed to accompany you through different stages of your healing and personal growth process, from preparation to complete integration.',
     'services.cta': 'Schedule Initial Consultation',

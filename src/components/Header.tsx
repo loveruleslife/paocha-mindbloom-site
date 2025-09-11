@@ -56,13 +56,6 @@ const Header = () => {
           <LanguageSwitcher />
         </div>
 
-        {/* CTA Button */}
-        <div className="hidden md:block">
-          <Button variant="consultation" size="sm">
-            {t('nav.schedule')}
-          </Button>
-        </div>
-
         {/* Mobile menu button */}
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -87,11 +80,8 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <div className="pt-4 space-y-3">
+              <div className="pt-4">
                 <LanguageSwitcher />
-                <Button variant="consultation" size="sm" className="w-full">
-                  {t('nav.schedule')}
-                </Button>
               </div>
             </div>
           </div>

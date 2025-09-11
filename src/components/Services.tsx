@@ -149,13 +149,6 @@ const Services = () => {
             </div>
           ))}
         </div>
-        
-        {/* CTA */}
-        <div className="text-center mt-16">
-          <Button variant="sacred" size="lg" className="px-12 py-4 text-lg">
-            {t('services.cta')}
-          </Button>
-        </div>
       </div>
     </section>
   );
