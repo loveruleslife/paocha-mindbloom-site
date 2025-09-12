@@ -7,56 +7,56 @@
 
 @layer base {
   :root {
-    /* Core earth-tone palette for consciousness work */
-    --background: 30 15% 97%;
-    --foreground: 25 30% 15%;
+    /* Updated palette with user's specified colors for optimal visual clarity */
+    --background: 0 18% 94%;
+    --foreground: 257 100% 20%;
 
-    --card: 30 20% 98%;
-    --card-foreground: 25 30% 15%;
+    --card: 0 18% 89%;
+    --card-foreground: 257 100% 25%;
 
-    --popover: 30 20% 98%;
-    --popover-foreground: 25 30% 15%;
+    --popover: 0 18% 89%;
+    --popover-foreground: 257 100% 20%;
 
-    /* Sacred primary - warm earth brown */
-    --primary: 25 45% 25%;
-    --primary-foreground: 30 15% 97%;
+    /* Primary - vibrant purple */
+    --primary: 257 100% 66%;
+    --primary-foreground: 0 18% 94%;
 
-    /* Forest green secondary */
-    --secondary: 110 30% 35%;
-    --secondary-foreground: 30 15% 97%;
+    /* Secondary - mint green */
+    --secondary: 162 100% 76%;
+    --secondary-foreground: 257 100% 25%;
 
     /* Soft muted tones */
-    --muted: 30 15% 92%;
-    --muted-foreground: 25 20% 45%;
+    --muted: 0 18% 84%;
+    --muted-foreground: 257 50% 40%;
 
-    /* Sunflower accent */
-    --accent: 45 85% 60%;
-    --accent-foreground: 25 30% 15%;
+    /* Accent - warm orange */
+    --accent: 29 81% 57%;
+    --accent-foreground: 0 18% 94%;
 
     /* Sacred purple for ceremonial elements */
-    --sacred: 280 30% 40%;
-    --sacred-foreground: 30 15% 97%;
+    --sacred: 257 100% 66%;
+    --sacred-foreground: 0 18% 94%;
 
-    /* Sunset orange for warmth */
-    --sunset: 20 80% 55%;
-    --sunset-foreground: 30 15% 97%;
+    /* Sunset yellow for warmth */
+    --sunset: 51 100% 68%;
+    --sunset-foreground: 257 100% 25%;
 
     --destructive: 0 70% 50%;
     --destructive-foreground: 30 15% 97%;
 
-    --border: 30 20% 88%;
-    --input: 30 20% 95%;
-    --ring: 25 45% 25%;
+    --border: 0 18% 78%;
+    --input: 0 18% 84%;
+    --ring: 257 100% 66%;
 
     --radius: 0.75rem;
 
-    /* Custom design tokens for consciousness work */
-    --earth-gradient: linear-gradient(135deg, hsl(25 45% 25%), hsl(45 60% 40%), hsl(110 30% 35%));
-    --sacred-gradient: linear-gradient(120deg, hsl(280 30% 40%), hsl(45 85% 60%), hsl(20 80% 55%));
-    --gentle-gradient: linear-gradient(180deg, hsl(30 15% 97%), hsl(30 20% 95%));
-    --ceremonial-glow: 0 8px 32px hsl(280 30% 40% / 0.15);
-    --earth-shadow: 0 4px 20px hsl(25 45% 25% / 0.1);
-    --warm-glow: 0 0 40px hsl(45 85% 60% / 0.2);
+    /* Updated design tokens using new color palette */
+    --earth-gradient: linear-gradient(135deg, hsl(257 100% 66%), hsl(29 81% 57%), hsl(162 100% 76%));
+    --sacred-gradient: linear-gradient(120deg, hsl(257 100% 66%), hsl(51 100% 68%), hsl(29 81% 57%));
+    --gentle-gradient: linear-gradient(180deg, hsl(0 18% 94%), hsl(0 18% 89%));
+    --ceremonial-glow: 0 8px 32px hsl(257 100% 66% / 0.15);
+    --earth-shadow: 0 4px 20px hsl(0 18% 74% / 0.1);
+    --warm-glow: 0 0 40px hsl(51 100% 68% / 0.2);
     
     /* Animation variables */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -137,8 +137,8 @@
 @layer components {
   .sacred-pattern {
     background-image: 
-      radial-gradient(circle at 25% 25%, hsl(45 85% 60% / 0.1) 0%, transparent 50%),
-      radial-gradient(circle at 75% 75%, hsl(280 30% 40% / 0.1) 0%, transparent 50%);
+      radial-gradient(circle at 25% 25%, hsl(51 100% 68% / 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, hsl(257 100% 66% / 0.1) 0%, transparent 50%);
   }
   
   .earth-glow {
