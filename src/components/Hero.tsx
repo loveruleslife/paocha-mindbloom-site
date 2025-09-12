@@ -25,7 +25,7 @@ const Hero = () => {
             <span className="text-accent font-medium text-sm tracking-wide">{t('hero.tagline')}</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-heading text-primary mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-tan-astoria text-primary mb-6 leading-tight">
             {t('hero.title')}
           </h1>
           

@@ -74,6 +74,7 @@ export default {
       fontFamily: {
         body: ['Inter', 'sans-serif'],
         heading: ['Crimson Text', 'serif'],
+        'tan-astoria': ['TAN Astoria', 'serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
