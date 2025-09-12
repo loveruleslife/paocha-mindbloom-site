@@ -74,7 +74,7 @@ export default {
       fontFamily: {
         body: ['Inter', 'sans-serif'],
         heading: ['Crimson Text', 'serif'],
-        'tan-astoria': ['TAN Astoria', 'serif'],
+        'tan-astoria': ['Fredoka One', 'cursive'],
       },
       borderRadius: {
         lg: "var(--radius)",
