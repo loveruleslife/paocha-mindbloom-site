@@ -50,18 +50,6 @@ const About = () => {
                   <img src="/lovable-uploads/34b3ba06-f912-44a2-a69f-dfd1d3b9be6d.png" alt="Sacred medicine preparation" className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
                 </div>
               </div>
-              
-              {/* Video Section */}
-              <div className="mt-6 rounded-lg overflow-hidden border border-border/50">
-                <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                  <iframe
-                    src="https://drive.google.com/file/d/1hd3zdnaoSlx98D524hGsCFkrpE4M-K8u/preview"
-                    className="absolute top-0 left-0 w-full h-full"
-                    allow="autoplay"
-                    allowFullScreen
-                  />
-                </div>
-              </div>
             </div>
             
             {/* Floating elements */}
