@@ -67,8 +67,10 @@ const translations = {
     
     'service.accompaniment.title': 'Círculos Mixtos (Hombres y Mujeres)',
     'service.accompaniment.subtitle': 'Espacios de Crecimiento Conjunto',
-    'service.accompaniment.description': 'En estos espacios se tocan diferentes temas cada semana, con el objetivo de conocerte mejor, obtener preguntas de reflexión e introspección y aprender en conjunto a sobrellevar diversas situaciones personales. Dirigido a hombres y mujeres de 21-70 años. Tiene una duración de 26 semanas (6 meses). Ofrezco las sesiones en inglés y en español. Tiempo de cada sesión: 3 horas. Nos reunimos 1 vez por semana. Horario: inglés: martes 5-8 pm MXCT, español: jueves 5-8 pm MXCT. Costo: $25 USD cada sesión. Cupo limitado.',
-    'service.accompaniment.features': ['26 semanas de duración', 'Sesiones de 3 horas', 'Grupos en español e inglés', 'Hombres y mujeres 21-70 años', 'Cupo limitado', '$25 USD por sesión'],
+    'service.accompaniment.intro': 'Espacios inclusivos para hombres y mujeres para explorar la conciencia personal y colectiva. Cada semana introduce temas reflexivos que fortalecen la convivencia y la comprensión mutua.',
+    'service.accompaniment.details': 'Detalles:',
+    'service.accompaniment.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión por persona', 'Rango de edad: 21–80 años'],
+    'service.accompaniment.description': '',
     
     'service.ceremonies.title': 'Terapia Con Psicodélicos',
     'service.ceremonies.subtitle': 'Acompañamiento Personalizado',
@@ -175,8 +177,10 @@ const translations = {
     
     'service.accompaniment.title': 'Mixed Circles (Men and Women)',
     'service.accompaniment.subtitle': 'Joint Growth Spaces',
-    'service.accompaniment.description': 'In these spaces we explore different topics each week, with the goal of getting to know yourself better, obtaining reflection and introspection questions, and learning together to cope with various personal situations. For men and women aged 21-70. Duration of 26 weeks (6 months). I offer sessions in English and Spanish. Session time: 3 hours. We meet once a week. Schedule: English: Tuesday 5-8 pm MXCT, Spanish: Thursday 5-8 pm MXCT. Cost: $25 USD per session. Limited capacity.',
-    'service.accompaniment.features': ['26-week duration', '3-hour sessions', 'Spanish and English groups', 'Men and women 21-70 years', 'Limited capacity', '$25 USD per session'],
+    'service.accompaniment.intro': 'Inclusive spaces for both men and women to explore personal and collective awareness. Each week introduces reflective themes that strengthen coexistence and mutual understanding.',
+    'service.accompaniment.details': 'Details:',
+    'service.accompaniment.details.list': ['Frequency: Once per week (2 hours each)', 'Language: English or Spanish', 'Price: $25 USD per session per person', 'Age range: 21–80 years'],
+    'service.accompaniment.description': '',
     
     'service.ceremonies.title': 'Psychedelic Therapy',
     'service.ceremonies.subtitle': 'Personalized Accompaniment',
