@@ -52,9 +52,10 @@ const translations = {
     
     // Service items
     'service.therapy.title': 'Psicoterapia Individual Online',
-    'service.therapy.subtitle': 'Sesiones 1-1 por Zoom',
-    'service.therapy.description': 'Sesiones de 1-1 por Zoom acompañadas de una psicóloga con diversas bases terapéuticas y psicológicas para acompañarte en tu proceso de introspección y autoconocimiento. Obtendrás: Técnicas de autoconocimiento, conexión más sólida contigo, preguntas de autorreflexión, escucha activa, actividades de escritura, empatía y acompañamiento.',
-    'service.therapy.features': ['Técnicas de autoconocimiento', 'Conexión más sólida contigo', 'Preguntas de autorreflexión', 'Escucha activa', 'Empatía y acompañamiento', 'Actividades de escritura'],
+    'service.therapy.subtitle': 'Formato: Sesiones 1-1 por Zoom',
+    'service.therapy.description': 'Sesiones personalizadas con una psicóloga entrenada en múltiples marcos terapéuticos y psicológicos para acompañarte en tu proceso de introspección y autoconocimiento.',
+    'service.therapy.gain': 'Obtendrás:',
+    'service.therapy.features': ['Técnicas de autoconocimiento', 'Una conexión más profunda contigo mismo', 'Preguntas reflexivas y de autoinvestigación', 'Escucha activa y apoyo empático', 'Ejercicios de escritura y journaling'],
     
     'service.introspection.title': 'Círculos de Mujeres',
     'service.introspection.subtitle': 'Espacios de Crecimiento Femenino',
@@ -156,9 +157,10 @@ const translations = {
     
     // Service items
     'service.therapy.title': 'Individual Online Psychotherapy',
-    'service.therapy.subtitle': '1-on-1 Zoom Sessions',
-    'service.therapy.description': '1-on-1 Zoom sessions accompanied by a psychologist with diverse therapeutic and psychological foundations to support you in your introspection and self-knowledge process. You will get: Self-knowledge techniques, Stronger connection with yourself, Self-reflection questions, Active listening, writing activities, empathy and accompaniment.',
-    'service.therapy.features': ['Self-knowledge techniques', 'Stronger connection with yourself', 'Self-reflection questions', 'Active listening', 'Empathy and support', 'Writing activities'],
+    'service.therapy.subtitle': 'Format: 1-on-1 sessions via Zoom',
+    'service.therapy.description': 'Personalized sessions with a psychologist trained in multiple therapeutic and psychological frameworks to support your process of introspection and self-awareness.',
+    'service.therapy.gain': "You'll gain:",
+    'service.therapy.features': ['Self-awareness techniques', 'A deeper connection with yourself', 'Reflective and self-inquiry questions', 'Active listening and empathetic support', 'Writing and journaling exercises'],
     
     'service.introspection.title': "Women's Circles",
     'service.introspection.subtitle': 'Feminine Growth Spaces',

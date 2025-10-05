@@ -122,14 +122,33 @@ const Services = () => {
                     {service.title}
                   </h3>
                   <p className={`text-${service.color} font-medium mb-4`}>
-                    {service.subtitle}
+                    {service.subtitle.includes('Format:') ? (
+                      <>
+                        <span className="font-bold">Format:</span> {service.subtitle.replace('Format:', '').trim()}
+                      </>
+                    ) : (
+                      service.subtitle
+                    )}
                   </p>
                   <p className="text-muted-foreground mb-6 leading-relaxed">
                     {service.description}
                   </p>
+                  
+                  {/* Features list for therapy service */}
+                  {service.features && service.features.length > 0 && index === 0 && (
+                    <div className="mt-4">
+                      <p className="font-bold text-foreground mb-3">{t('service.therapy.gain')}</p>
+                      <ul className="space-y-2">
+                        {service.features.map((feature, idx) => (
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
+                            <span className={`text-${service.color} mt-1`}>•</span>
+                            <span>{feature}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
                 </div>
-                
-                {/* Content only - features and buttons removed */}
               </div>
             </div>
           ))}
