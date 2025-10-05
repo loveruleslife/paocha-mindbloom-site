@@ -13,7 +13,8 @@ const Services = () => {
         t('service.therapy.features.0'),
         t('service.therapy.features.1'),
         t('service.therapy.features.2'),
-        t('service.therapy.features.3')
+        t('service.therapy.features.3'),
+        t('service.therapy.features.4')
       ],
       color: "secondary",
       gradient: "from-secondary/20 to-secondary/5"
