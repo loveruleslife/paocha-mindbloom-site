@@ -10,6 +10,7 @@ const Services = () => {
       es: {
         'service.therapy.features': ['Técnicas de autoconocimiento', 'Una conexión más profunda contigo mismo', 'Preguntas reflexivas y de autoinvestigación', 'Escucha activa y apoyo empático', 'Ejercicios de escritura y journaling'],
         'service.introspection.features': ['26 semanas de duración', 'Sesiones de 3 horas', 'Grupos en español e inglés', 'Solo mujeres 21-70 años', 'Cupo limitado', '$25 USD por sesión'],
+        'service.introspection.details.list': ['Duración: 26 semanas (6 meses)', 'Frecuencia: Una vez por semana (3 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión', 'Rango de edad: Mujeres de 21–70 años', 'Cupos limitados — Se requiere compromiso de asistencia del 80%'],
         'service.accompaniment.features': ['26 semanas de duración', 'Sesiones de 3 horas', 'Grupos en español e inglés', 'Hombres y mujeres 21-70 años', 'Cupo limitado', '$25 USD por sesión'],
         'service.ceremonies.features': ['12 sesiones previas (3 meses)', 'Terapia con psicodélicos', '4 sesiones de integración', 'Acompañamiento personalizado'],
         'service.retreats.features': ['Herramientas de preparación', 'Meditaciones y respiración', 'Mínimo 8 sesiones', 'Máximo 12 sesiones'],
@@ -18,6 +19,7 @@ const Services = () => {
       en: {
         'service.therapy.features': ['Self-awareness techniques', 'A deeper connection with yourself', 'Reflective and self-inquiry questions', 'Active listening and empathetic support', 'Writing and journaling exercises'],
         'service.introspection.features': ['26-week duration', '3-hour sessions', 'Spanish and English groups', 'Women only 21-70 years', 'Limited capacity', '$25 USD per session'],
+        'service.introspection.details.list': ['Duration: 26 weeks (6 months)', 'Frequency: Once per week (3 hours each)', 'Language: English or Spanish', 'Price: $25 USD per session', 'Age range: Women 21–70 years', 'Limited spots — 80% attendance commitment required'],
         'service.accompaniment.features': ['26-week duration', '3-hour sessions', 'Spanish and English groups', 'Men and women 21-70 years', 'Limited capacity', '$25 USD per session'],
         'service.ceremonies.features': ['12 prior sessions (3 months)', 'Psychedelic therapy', '4 integration sessions', 'Personalized accompaniment'],
         'service.retreats.features': ['Preparation tools', 'Meditations and breathing', 'Minimum 8 sessions', 'Maximum 12 sessions'],
@@ -40,6 +42,8 @@ const Services = () => {
       title: t('service.introspection.title'),
       subtitle: t('service.introspection.subtitle'),
       intro: t('service.introspection.intro'),
+      details: t('service.introspection.details'),
+      detailsList: getFeatures('service.introspection.details.list'),
       description: t('service.introspection.description'),
       features: getFeatures('service.introspection.features'),
       color: "accent",
@@ -129,6 +133,20 @@ const Services = () => {
                     <p className="text-foreground mb-4 leading-relaxed">
                       {service.intro}
                     </p>
+                  )}
+                  {/* Details list for Women's Circles */}
+                  {service.detailsList && service.detailsList.length > 0 && (
+                    <div className="mt-4 mb-4">
+                      <p className="font-bold text-foreground mb-3">{service.details}</p>
+                      <ul className="space-y-2">
+                        {service.detailsList.map((detail: string, idx: number) => (
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
+                            <span className={`text-${service.color} mt-1`}>•</span>
+                            <span>{detail}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   )}
                   <p className="text-muted-foreground mb-6 leading-relaxed">
                     {service.description}

@@ -60,7 +60,9 @@ const translations = {
     'service.introspection.title': 'Círculos de Mujeres',
     'service.introspection.subtitle': 'Espacios de Crecimiento Femenino',
     'service.introspection.intro': 'Encuentros semanales enfocados en el autoconocimiento, la reflexión y el crecimiento compartido. Cada sesión explora un nuevo tema para fomentar la perspicacia y la resiliencia emocional.',
-    'service.introspection.description': 'En estos espacios se tocan diferentes temas cada semana, con el objetivo de conocerte mejor, obtener preguntas de reflexión e introspección y aprender en conjunto a sobrellevar diversas situaciones personales. Dirigido únicamente a mujeres de 21-70 años. Tiene una duración de 26 semanas (6 meses). Ofrezco las sesiones en inglés y en español. Tiempo de cada sesión: 3 horas. Nos reunimos 1 vez por semana. Horario: Inglés: martes 5-8 pm MXCT, Español: jueves 5-8 pm MXCT. Costo: $25 USD cada sesión. Cupo limitado.',
+    'service.introspection.details': 'Detalles:',
+    'service.introspection.details.list': ['Duración: 26 semanas (6 meses)', 'Frecuencia: Una vez por semana (3 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión', 'Rango de edad: Mujeres de 21–70 años', 'Cupos limitados — Se requiere compromiso de asistencia del 80%'],
+    'service.introspection.description': 'En estos espacios se tocan diferentes temas cada semana, con el objetivo de conocerte mejor, obtener preguntas de reflexión e introspección y aprender en conjunto a sobrellevar diversas situaciones personales.',
     'service.introspection.features': ['26 semanas de duración', 'Sesiones de 3 horas', 'Grupos en español e inglés', 'Solo mujeres 21-70 años', 'Cupo limitado', '$25 USD por sesión'],
     
     'service.accompaniment.title': 'Círculos Mixtos (Hombres y Mujeres)',
@@ -166,7 +168,9 @@ const translations = {
     'service.introspection.title': "Women's Circles",
     'service.introspection.subtitle': 'Feminine Growth Spaces',
     'service.introspection.intro': 'Weekly gatherings focused on self-knowledge, reflection, and shared growth. Each session explores a new theme to foster insight and emotional resilience.',
-    'service.introspection.description': 'In these spaces we explore different topics each week, with the goal of getting to know yourself better, obtaining reflection and introspection questions, and learning together to cope with various personal situations. Exclusively for women aged 21-70. Duration of 26 weeks (6 months). I offer sessions in English and Spanish. Session time: 3 hours. We meet once a week. Schedule: English: Tuesday 5-8 pm MXCT, Spanish: Thursday 5-8 pm MXCT. Cost: $25 USD per session. Limited capacity.',
+    'service.introspection.details': 'Details:',
+    'service.introspection.details.list': ['Duration: 26 weeks (6 months)', 'Frequency: Once per week (3 hours each)', 'Language: English or Spanish', 'Price: $25 USD per session', 'Age range: Women 21–70 years', 'Limited spots — 80% attendance commitment required'],
+    'service.introspection.description': 'In these spaces we explore different topics each week, with the goal of getting to know yourself better, obtaining reflection and introspection questions, and learning together to cope with various personal situations.',
     'service.introspection.features': ['26-week duration', '3-hour sessions', 'Spanish and English groups', 'Women only 21-70 years', 'Limited capacity', '$25 USD per session'],
     
     'service.accompaniment.title': 'Mixed Circles (Men and Women)',
