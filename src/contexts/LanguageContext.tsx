@@ -33,7 +33,7 @@ const translations = {
     // About
     'about.section': 'SOBRE PAOLA',
     'about.title': 'Guiando el Camino Hacia la Transformación de la Conciencia',
-    'about.quote': '"La sanación verdadera ocurre cuando reconectamos con nuestra esencia más profunda"',
+    'about.quote': '"La transformación verdadera ocurre cuando reconectamos con nuestra esencia más profunda"',
     'about.p1': 'Soy Paola Echartea Cruz, psicóloga especializada en terapias de expansión de conciencia y acompañamiento en estados no ordinarios. Mi enfoque integra la psicología clínica tradicional con sabidurías ancestrales y terapias psicodélicas.',
     'about.p2': 'Con años de formación en psicología transpersonal y ceremonias sagradas, ofrezco un espacio seguro para la exploración profunda del ser y la sanación de patrones limitantes que nos impiden vivir plenamente.',
     'about.p3': 'Mi misión es acompañar a las personas en su proceso de autodescubrimiento, brindando herramientas para integrar las experiencias transformadoras en su vida cotidiana y generar cambios duraderos.',
@@ -137,7 +137,7 @@ const translations = {
     // About
     'about.section': 'ABOUT PAOLA',
     'about.title': 'Guiding the Path Toward Consciousness Transformation',
-    'about.quote': '"True healing occurs when we reconnect with our deepest essence"',
+    'about.quote': '"True transformation occurs when we reconnect with our deepest essence"',
     'about.p1': 'I am Paola Echartea Cruz, a psychologist specialized in consciousness expansion therapies and accompaniment in non-ordinary states. My approach integrates traditional clinical psychology with ancestral wisdom and psychedelic therapies.',
     'about.p2': 'With years of training in transpersonal psychology and sacred ceremonies, I offer a safe space for deep exploration of the self and healing of limiting patterns that prevent us from living fully.',
     'about.p3': 'My mission is to accompany people in their process of self-discovery, providing tools to integrate transformative experiences into their daily lives and generate lasting changes.',
