@@ -39,6 +39,7 @@ const Services = () => {
     {
       title: t('service.introspection.title'),
       subtitle: t('service.introspection.subtitle'),
+      intro: t('service.introspection.intro'),
       description: t('service.introspection.description'),
       features: getFeatures('service.introspection.features'),
       color: "accent",
@@ -123,6 +124,12 @@ const Services = () => {
                       service.subtitle
                     )}
                   </p>
+                  {/* Intro text for Women's Circles */}
+                  {service.intro && (
+                    <p className="text-foreground mb-4 leading-relaxed">
+                      {service.intro}
+                    </p>
+                  )}
                   <p className="text-muted-foreground mb-6 leading-relaxed">
                     {service.description}
                   </p>
