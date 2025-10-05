@@ -2,20 +2,37 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 const Services = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+
+  // Get features arrays from translations
+  const getFeatures = (key: string): string[] => {
+    const translations = {
+      es: {
+        'service.therapy.features': ['Técnicas de autoconocimiento', 'Una conexión más profunda contigo mismo', 'Preguntas reflexivas y de autoinvestigación', 'Escucha activa y apoyo empático', 'Ejercicios de escritura y journaling'],
+        'service.introspection.features': ['26 semanas de duración', 'Sesiones de 3 horas', 'Grupos en español e inglés', 'Solo mujeres 21-70 años', 'Cupo limitado', '$25 USD por sesión'],
+        'service.accompaniment.features': ['26 semanas de duración', 'Sesiones de 3 horas', 'Grupos en español e inglés', 'Hombres y mujeres 21-70 años', 'Cupo limitado', '$25 USD por sesión'],
+        'service.ceremonies.features': ['12 sesiones previas (3 meses)', 'Terapia con psicodélicos', '4 sesiones de integración', 'Acompañamiento personalizado'],
+        'service.retreats.features': ['Herramientas de preparación', 'Meditaciones y respiración', 'Mínimo 8 sesiones', 'Máximo 12 sesiones'],
+        'service.integration.features': ['Sesiones de procesamiento', 'Seguimiento terapéutico', 'Integración de estilo de vida', 'Grupos de apoyo']
+      },
+      en: {
+        'service.therapy.features': ['Self-awareness techniques', 'A deeper connection with yourself', 'Reflective and self-inquiry questions', 'Active listening and empathetic support', 'Writing and journaling exercises'],
+        'service.introspection.features': ['26-week duration', '3-hour sessions', 'Spanish and English groups', 'Women only 21-70 years', 'Limited capacity', '$25 USD per session'],
+        'service.accompaniment.features': ['26-week duration', '3-hour sessions', 'Spanish and English groups', 'Men and women 21-70 years', 'Limited capacity', '$25 USD per session'],
+        'service.ceremonies.features': ['12 prior sessions (3 months)', 'Psychedelic therapy', '4 integration sessions', 'Personalized accompaniment'],
+        'service.retreats.features': ['Preparation tools', 'Meditations and breathing', 'Minimum 8 sessions', 'Maximum 12 sessions'],
+        'service.integration.features': ['Processing sessions', 'Therapeutic follow-up', 'Lifestyle integration', 'Support groups']
+      }
+    };
+    return translations[language][key as keyof typeof translations[typeof language]] || [];
+  };
 
   const services = [
     {
       title: t('service.therapy.title'),
       subtitle: t('service.therapy.subtitle'),
       description: t('service.therapy.description'),
-      features: [
-        t('service.therapy.features.0'),
-        t('service.therapy.features.1'),
-        t('service.therapy.features.2'),
-        t('service.therapy.features.3'),
-        t('service.therapy.features.4')
-      ],
+      features: getFeatures('service.therapy.features'),
       color: "secondary",
       gradient: "from-secondary/20 to-secondary/5"
     },
@@ -23,12 +40,7 @@ const Services = () => {
       title: t('service.introspection.title'),
       subtitle: t('service.introspection.subtitle'),
       description: t('service.introspection.description'),
-      features: [
-        t('service.introspection.features.0'),
-        t('service.introspection.features.1'),
-        t('service.introspection.features.2'),
-        t('service.introspection.features.3')
-      ],
+      features: getFeatures('service.introspection.features'),
       color: "accent",
       gradient: "from-accent/20 to-accent/5"
     },
@@ -36,12 +48,7 @@ const Services = () => {
       title: t('service.accompaniment.title'),
       subtitle: t('service.accompaniment.subtitle'),
       description: t('service.accompaniment.description'),
-      features: [
-        t('service.accompaniment.features.0'),
-        t('service.accompaniment.features.1'),
-        t('service.accompaniment.features.2'),
-        t('service.accompaniment.features.3')
-      ],
+      features: getFeatures('service.accompaniment.features'),
       color: "sunset",
       gradient: "from-sunset/20 to-sunset/5"
     },
@@ -49,12 +56,7 @@ const Services = () => {
       title: t('service.ceremonies.title'),
       subtitle: t('service.ceremonies.subtitle'),
       description: t('service.ceremonies.description'),
-      features: [
-        t('service.ceremonies.features.0'),
-        t('service.ceremonies.features.1'),
-        t('service.ceremonies.features.2'),
-        t('service.ceremonies.features.3')
-      ],
+      features: getFeatures('service.ceremonies.features'),
       color: "sacred",
       gradient: "from-sacred/20 to-sacred/5"
     },
@@ -62,12 +64,7 @@ const Services = () => {
       title: t('service.retreats.title'),
       subtitle: t('service.retreats.subtitle'),
       description: t('service.retreats.description'),
-      features: [
-        t('service.retreats.features.0'),
-        t('service.retreats.features.1'),
-        t('service.retreats.features.2'),
-        t('service.retreats.features.3')
-      ],
+      features: getFeatures('service.retreats.features'),
       color: "primary",
       gradient: "from-primary/20 to-primary/5"
     },
@@ -75,12 +72,7 @@ const Services = () => {
       title: t('service.integration.title'),
       subtitle: t('service.integration.subtitle'),
       description: t('service.integration.description'),
-      features: [
-        t('service.integration.features.0'),
-        t('service.integration.features.1'),
-        t('service.integration.features.2'),
-        t('service.integration.features.3')
-      ],
+      features: getFeatures('service.integration.features'),
       color: "secondary",
       gradient: "from-secondary/10 to-primary/10"
     }
