@@ -38,13 +38,13 @@ const About = () => {
                   <img src="/lovable-uploads/95f72e56-96da-499b-98ae-2604d276c123.png" alt="Sound healing with Tibetan singing bowls" className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
-                  
+                  <img src="/lovable-uploads/meditation-session.jpg" alt="Group meditation and mindfulness session" className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
                   <img src="/lovable-uploads/ada0e47d-2749-4558-9f09-a1ca7940dd92.png" alt="Creative art therapy session outdoors" className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
-                  
+                  <img src="/lovable-uploads/art-therapy-materials.jpg" alt="Creative art therapy materials and oracle cards" className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden bg-card border border-border/50">
                   <img src="/lovable-uploads/34b3ba06-f912-44a2-a69f-dfd1d3b9be6d.png" alt="Sacred medicine preparation" className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
