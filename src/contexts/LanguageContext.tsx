@@ -88,8 +88,10 @@ const translations = {
     
     'service.preparation.title': 'Preparación para Sesiones Terapéuticas en Estados Amplificados',
     'service.preparation.subtitle': 'Preparación Especializada',
-    'service.preparation.description': 'Antes de participar en una sesión (conmigo o con otro facilitador), ofrezco apoyo preparatorio usando meditaciones, técnicas de respiración, ejercicios reflexivos y prácticas de anclaje. Este proceso te ayuda a acercarte a tu experiencia desde un lugar de conciencia, apertura, confianza y respeto por tu viaje personal.',
-    'service.preparation.features': ['Herramientas de preparación', 'Meditaciones y respiración', 'Mínimo 8 sesiones', 'Máximo 12 sesiones'],
+    'service.preparation.description': 'Antes de participar en una sesión (conmigo o con otro facilitador), ofrezco apoyo preparatorio para ayudarte a obtener herramientas para tu proceso individual.',
+    'service.preparation.tools': 'Herramientas:',
+    'service.preparation.tools.list': ['Meditaciones', 'Técnicas de respiración', 'Ejercicios reflexivos', 'Prácticas de anclaje'],
+    'service.preparation.closing': 'Este proceso te ayuda a acercarte a tu experiencia desde un lugar de conciencia, apertura, confianza y respeto por tu viaje personal.',
     
     'service.integration.title': 'Círculos de Compartición e Integración Post-Experiencia',
     'service.integration.subtitle': 'Sesiones grupales por Zoom dirigidas por una psicóloga experimentada, diseñadas para compartir, reflexionar e integrar experiencias con trabajo psicodélico o de estados expandidos.',
@@ -217,8 +219,10 @@ const translations = {
     
     'service.preparation.title': 'Preparation for Therapeutic Sessions in Amplified States',
     'service.preparation.subtitle': 'Specialized Preparation',
-    'service.preparation.description': 'Before participating in a session (with me or another facilitator), I offer preparatory support using meditations, breathing techniques, reflective exercises, and grounding practices. This process helps you approach your experience from a place of awareness, openness, trust, and respect for your personal journey.',
-    'service.preparation.features': ['Preparation tools', 'Meditations and breathing', 'Minimum 8 sessions', 'Maximum 12 sessions'],
+    'service.preparation.description': 'Before participating in a session (with me or another facilitator) I offer preparatory support to help you obtain tools for your individual process.',
+    'service.preparation.tools': 'Tools:',
+    'service.preparation.tools.list': ['Meditations', 'Breathing techniques', 'Reflective Exercises', 'Grounding Practices'],
+    'service.preparation.closing': 'This process helps you approach your experience from a place of awareness, openness, trust, and respect for your personal journey.',
     
     'service.integration.title': 'Post-Experience Sharing & Integration Circles',
     'service.integration.subtitle': 'Group sessions on Zoom led by an experienced psychologist, designed to share, reflect, and integrate experiences with psychedelic or expanded-state work.',

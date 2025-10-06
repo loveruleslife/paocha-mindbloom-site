@@ -16,7 +16,7 @@ const Services = () => {
         'service.ceremonies.includes.list': ['Sesiones de preparación individuales', 'Sesiones terapéuticas con medicina (si es apropiado)', 'Terapia de integración posterior a la sesión'],
         'service.ceremonies.features': ['12 sesiones previas (3 meses)', 'Terapia con psicodélicos', '4 sesiones de integración', 'Acompañamiento personalizado'],
         'service.retreats.options.list': ['Retiros individuales o grupales', 'Los retiros pueden modificarse para satisfacer tus necesidades individuales'],
-        'service.preparation.features': ['Herramientas de preparación', 'Meditaciones y respiración', 'Mínimo 8 sesiones', 'Máximo 12 sesiones'],
+        'service.preparation.tools.list': ['Meditaciones', 'Técnicas de respiración', 'Ejercicios reflexivos', 'Prácticas de anclaje'],
         'service.integration.gain.list': ['Indicaciones reflexivas y de autoanálisis', 'Apoyo emocional y psicológico', 'Conexión grupal e ideas compartidas'],
         'service.integration.details.list': ['Duración: 2 horas', 'Idioma: Inglés o Español', 'Precio: $25 USD por persona'],
         'service.individual.approach.list': ['Utiliza la escritura, el arte y el diálogo reflexivo para construir conciencia emocional y equilibrio interior.', 'Ideal para quienes han participado en ceremonias terapéuticas o chamánicas y buscan una comprensión más profunda e integrada.']
@@ -30,7 +30,7 @@ const Services = () => {
         'service.ceremonies.includes.list': ['One-on-one preparation sessions', 'Therapeutic sessions with medicine (if appropriate)', 'Post-session integration therapy'],
         'service.ceremonies.features': ['12 prior sessions (3 months)', 'Psychedelic therapy', '4 integration sessions', 'Personalized accompaniment'],
         'service.retreats.options.list': ['Individual or group retreats', 'Retreats can be modified to meet your individual needs'],
-        'service.preparation.features': ['Preparation tools', 'Meditations and breathing', 'Minimum 8 sessions', 'Maximum 12 sessions'],
+        'service.preparation.tools.list': ['Meditations', 'Breathing techniques', 'Reflective Exercises', 'Grounding Practices'],
         'service.integration.gain.list': ['Reflective and self-analysis prompts', 'Emotional and psychological support', 'Group connection and shared insights'],
         'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish', 'Price: $25 USD per person'],
         'service.individual.approach.list': ['Uses writing, art, and reflective dialogue to build emotional awareness and inner balance.', 'Ideal for those who have participated in therapeutic or shamanic ceremonies and seek a deeper, integrated understanding.']
@@ -91,7 +91,9 @@ const Services = () => {
       title: t('service.preparation.title'),
       subtitle: t('service.preparation.subtitle'),
       description: t('service.preparation.description'),
-      features: getFeatures('service.preparation.features'),
+      tools: t('service.preparation.tools'),
+      toolsList: getFeatures('service.preparation.tools.list'),
+      closing: t('service.preparation.closing'),
       color: "primary",
       gradient: "from-primary/20 to-primary/5"
     },
@@ -227,6 +229,26 @@ const Services = () => {
                       <p className="font-bold text-foreground mb-3">{service.options}</p>
                       <ul className="space-y-2">
                         {service.optionsList.map((item: string, idx: number) => (
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
+                            <span className={`text-${service.color} mt-1`}>•</span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                      {service.closing && (
+                        <p className="text-foreground mt-4 leading-relaxed">
+                          {service.closing}
+                        </p>
+                      )}
+                    </div>
+                  )}
+                  
+                  {/* Tools list for Preparation */}
+                  {service.toolsList && service.toolsList.length > 0 && (
+                    <div className="mt-4">
+                      <p className="font-bold text-foreground mb-3">{service.tools}</p>
+                      <ul className="space-y-2">
+                        {service.toolsList.map((item: string, idx: number) => (
                           <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
                             <span className={`text-${service.color} mt-1`}>•</span>
                             <span>{item}</span>
