@@ -35,10 +35,7 @@ const Hero = () => {
             {t('hero.title')}
           </h1>
           
-          <h2 className="text-2xl md:text-3xl font-heading font-semibold text-secondary mb-8 max-w-2xl mx-auto" style={{ 
-            textShadow: '0 0 15px rgba(0,0,0,0.9), 2px 2px 4px rgba(0,0,0,1), -1px -1px 2px rgba(0,0,0,0.8)',
-            WebkitTextStroke: '0.5px rgba(0,0,0,0.5)'
-          }}>
+          <h2 className="text-2xl md:text-3xl font-heading text-foreground/90 mb-8 max-w-2xl mx-auto">
             {t('hero.subtitle')}
           </h2>
           
