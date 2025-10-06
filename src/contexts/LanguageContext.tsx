@@ -22,17 +22,17 @@ const translations = {
     // Hero
     'hero.tagline': 'PSICÓLOGA PAOLA ECHARTEA CRUZ',
     'hero.title': 'Paochamama',
-    'hero.subtitle': 'Reprogramando la mente a través de estados amplificados de conciencia',
-    'hero.description': 'Acompañamiento terapéutico especializado en expansión de conciencia, ceremonias sagradas e integración holística para el crecimiento personal y la transformación.',
+    'hero.subtitle': 'Reprogramando la mente a través de estados amplificados de consciencia',
+    'hero.description': 'Acompañamiento terapéutico especializado en expansión de consciencia, ceremonias sagradas e integración holística para el crecimiento personal y la transformación.',
     'hero.cta.main': 'Agendar Consulta',
     'hero.cta.secondary': 'Conoce Nuestros Servicios',
     'hero.credentials.licensed': 'Psicóloga Licenciada',
-    'hero.credentials.specialist': 'Especialista en Conciencia',
+    'hero.credentials.specialist': 'Especialista en Consciencia',
     'hero.credentials.ethical': 'Práctica Ética y Segura',
     
     // About
     'about.section': 'SOBRE PAOLA',
-    'about.title': 'Guiando el Camino Hacia la Transformación de la Conciencia',
+    'about.title': 'Guiando el Camino Hacia la Transformación de la Consciencia',
     'about.quote': '"La transformación verdadera ocurre cuando reconectamos con nuestra esencia más profunda"',
     'about.p1': 'Soy Paola Echartea Cruz, psicóloga especializada en terapias de expansión de consciencia y acompañamiento en estados amplificados de consciencia. Mi enfoque integra la psicología clínica tradicional con sabidurías ancestrales y educación junto con integración para experiencias no ordinarias.',
     'about.p2': 'Con años de formación en psicología y ceremonias sagradas, ofrezco un espacio seguro para la exploración profunda del ser y la transformación de patrones limitantes que nos impiden vivir plenamente.',
@@ -69,14 +69,14 @@ const translations = {
     
     'service.accompaniment.title': 'Círculos Mixtos (Hombres y Mujeres)',
     'service.accompaniment.subtitle': 'Espacios de Crecimiento Conjunto',
-    'service.accompaniment.intro': 'Espacios inclusivos para hombres y mujeres para explorar la conciencia personal y colectiva. Cada semana introduce temas reflexivos que fortalecen la convivencia y la comprensión mutua.',
+    'service.accompaniment.intro': 'Espacios inclusivos para hombres y mujeres para explorar la consciencia personal y colectiva. Cada semana introduce temas reflexivos que fortalecen la convivencia y la comprensión mutua.',
     'service.accompaniment.details': 'Detalles:',
     'service.accompaniment.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión por persona', 'Rango de edad: 21–80 años'],
     'service.accompaniment.description': '',
     
-    'service.ceremonies.title': 'Terapia en Estados Amplificados de Conciencia',
+    'service.ceremonies.title': 'Terapia en Estados Amplificados de Consciencia',
     'service.ceremonies.subtitle': 'Acompañamiento Personalizado',
-    'service.ceremonies.intro': 'Guía y supervisión personalizada para apoyar experiencias seguras y significativas en estados expandidos de conciencia. El objetivo es construir confianza mutua y proporcionar herramientas a largo plazo para integrar nuevas formas de relacionarse consigo mismo y con el mundo.',
+    'service.ceremonies.intro': 'Guía y supervisión personalizada para apoyar experiencias seguras y significativas en estados expandidos de consciencia. El objetivo es construir confianza mutua y proporcionar herramientas a largo plazo para integrar nuevas formas de relacionarse consigo mismo y con el mundo.',
     'service.ceremonies.includes': 'Incluye:',
     'service.ceremonies.includes.list': ['Sesiones de preparación individuales', 'Sesiones terapéuticas con medicina (si es apropiado)', 'Terapia de integración posterior a la sesión'],
     'service.ceremonies.warning': '⚠️ Esta terapia no es adecuada para todos. Se requiere una consulta preliminar para evaluar la elegibilidad.',
@@ -93,7 +93,7 @@ const translations = {
     'service.preparation.description': 'Antes de participar en una sesión (conmigo o con otro facilitador), ofrezco apoyo preparatorio para ayudarte a obtener herramientas para tu proceso individual.',
     'service.preparation.tools': 'Herramientas:',
     'service.preparation.tools.list': ['Meditaciones', 'Técnicas de respiración', 'Ejercicios reflexivos', 'Prácticas de anclaje'],
-    'service.preparation.closing': 'Este proceso te ayuda a acercarte a tu experiencia desde un lugar de conciencia, apertura, confianza y respeto por tu viaje personal.',
+    'service.preparation.closing': 'Este proceso te ayuda a acercarte a tu experiencia desde un lugar de consciencia, apertura, confianza y respeto por tu viaje personal.',
     
     'service.integration.title': 'Círculos de Compartición e Integración Post-Experiencia',
     'service.integration.subtitle': 'Conectando Experiencias',
@@ -107,7 +107,7 @@ const translations = {
     'service.individual.title': 'Terapia de Integración Individual',
     'service.individual.subtitle': 'Tiempo de Reflexión',
     'service.individual.approach': 'Enfoque:',
-    'service.individual.approach.list': ['Utiliza la escritura, el arte y el diálogo reflexivo para construir conciencia emocional y equilibrio interior.', 'Ideal para quienes han participado en ceremonias terapéuticas o chamánicas y buscan una comprensión más profunda e integrada.'],
+    'service.individual.approach.list': ['Utiliza la escritura, el arte y el diálogo reflexivo para construir consciencia emocional y equilibrio interior.', 'Ideal para quienes han participado en ceremonias terapéuticas o chamánicas y buscan una comprensión más profunda e integrada.'],
     'service.individual.description': '',
     
     // Contact
@@ -124,7 +124,7 @@ const translations = {
     'contact.trust': 'Tu información está protegida bajo confidencialidad profesional',
     
     // Footer
-    'footer.description': 'Acompañamiento terapéutico especializado en expansión de conciencia y transformación personal a través de estados no ordinarios.',
+    'footer.description': 'Acompañamiento terapéutico especializado en expansión de consciencia y transformación personal a través de estados no ordinarios.',
     'footer.services.title': 'Servicios',
     'footer.services.individual': 'Terapia Individual',
     'footer.services.introspection': 'Introspección Guiada',
