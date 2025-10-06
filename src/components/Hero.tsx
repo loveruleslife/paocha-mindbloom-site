@@ -12,12 +12,12 @@ const Hero = () => {
           className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-110 blur-sm" 
           style={{
             backgroundImage: `url(${ceremonyBackground})`,
-            opacity: 0.25
+            opacity: 0.5
           }} 
         />
       </div>
-      <div className="absolute inset-0 bg-gentle-gradient opacity-80" />
-      <div className="absolute inset-0 sacred-pattern" />
+      <div className="absolute inset-0 bg-gentle-gradient opacity-50" />
+      <div className="absolute inset-0 sacred-pattern opacity-30" />
       
       {/* Floating elements */}
       <div className="absolute top-20 left-10 w-16 h-16 bg-accent/20 rounded-full animate-float blur-sm" />
