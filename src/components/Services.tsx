@@ -16,7 +16,8 @@ const Services = () => {
         'service.ceremonies.includes.list': ['Sesiones de preparación individuales', 'Sesiones terapéuticas con medicina (si es apropiado)', 'Terapia de integración posterior a la sesión'],
         'service.ceremonies.features': ['12 sesiones previas (3 meses)', 'Terapia con psicodélicos', '4 sesiones de integración', 'Acompañamiento personalizado'],
         'service.retreats.features': ['Herramientas de preparación', 'Meditaciones y respiración', 'Mínimo 8 sesiones', 'Máximo 12 sesiones'],
-        'service.integration.features': ['Sesiones de procesamiento', 'Seguimiento terapéutico', 'Integración de estilo de vida', 'Grupos de apoyo']
+        'service.integration.gain.list': ['Indicaciones reflexivas y de autoanálisis', 'Apoyo emocional y psicológico', 'Conexión grupal e ideas compartidas'],
+        'service.integration.details.list': ['Duración: 2 horas', 'Idioma: Inglés o Español', 'Precio: $25 USD por persona']
       },
       en: {
         'service.therapy.features': ['Self-awareness techniques', 'A deeper connection with yourself', 'Reflective and self-inquiry questions', 'Active listening and empathetic support', 'Writing and journaling exercises'],
@@ -27,7 +28,8 @@ const Services = () => {
         'service.ceremonies.includes.list': ['One-on-one preparation sessions', 'Therapeutic sessions with medicine (if appropriate)', 'Post-session integration therapy'],
         'service.ceremonies.features': ['12 prior sessions (3 months)', 'Psychedelic therapy', '4 integration sessions', 'Personalized accompaniment'],
         'service.retreats.features': ['Preparation tools', 'Meditations and breathing', 'Minimum 8 sessions', 'Maximum 12 sessions'],
-        'service.integration.features': ['Processing sessions', 'Therapeutic follow-up', 'Lifestyle integration', 'Support groups']
+        'service.integration.gain.list': ['Reflective and self-analysis prompts', 'Emotional and psychological support', 'Group connection and shared insights'],
+        'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish', 'Price: $25 USD per person']
       }
     };
     return translations[language][key as keyof typeof translations[typeof language]] || [];
@@ -83,8 +85,10 @@ const Services = () => {
     {
       title: t('service.integration.title'),
       subtitle: t('service.integration.subtitle'),
-      description: t('service.integration.description'),
-      features: getFeatures('service.integration.features'),
+      gain: t('service.integration.gain'),
+      gainList: getFeatures('service.integration.gain.list'),
+      details: t('service.integration.details'),
+      detailsList: getFeatures('service.integration.details.list'),
       color: "secondary",
       gradient: "from-secondary/10 to-primary/10"
     }
@@ -179,6 +183,21 @@ const Services = () => {
                     <p className="text-muted-foreground mb-6 leading-relaxed">
                       {service.description}
                     </p>
+                  )}
+                  
+                  {/* Gain list (You'll receive) for therapy and integration services */}
+                  {service.gainList && service.gainList.length > 0 && (
+                    <div className="mt-4">
+                      <p className="font-bold text-foreground mb-3">{service.gain}</p>
+                      <ul className="space-y-2">
+                        {service.gainList.map((item: string, idx: number) => (
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
+                            <span className={`text-${service.color} mt-1`}>•</span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   )}
                   
                   {/* Features list for therapy service */}

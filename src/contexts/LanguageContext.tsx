@@ -85,10 +85,14 @@ const translations = {
     'service.retreats.description': 'Antes de participar en una sesión (conmigo o con otro facilitador), ofrezco apoyo preparatorio usando meditaciones, técnicas de respiración, ejercicios reflexivos y prácticas de anclaje. Este proceso te ayuda a acercarte a tu experiencia desde un lugar de conciencia, apertura, confianza y respeto por tu viaje personal.',
     'service.retreats.features': ['Herramientas de preparación', 'Meditaciones y respiración', 'Mínimo 8 sesiones', 'Máximo 12 sesiones'],
     
-    'service.integration.title': 'Integración',
-    'service.integration.subtitle': 'Proceso de Incorporación',
-    'service.integration.description': 'Apoyo terapéutico post-ceremonia para procesar e integrar las experiencias en la vida cotidiana.',
-    'service.integration.features': ['Sesiones de procesamiento', 'Seguimiento terapéutico', 'Integración de estilo de vida', 'Grupos de apoyo'],
+    'service.integration.title': 'Círculos de Compartición e Integración Post-Experiencia',
+    'service.integration.subtitle': 'Sesiones grupales por Zoom dirigidas por una psicóloga experimentada, diseñadas para compartir, reflexionar e integrar experiencias con trabajo psicodélico o de estados expandidos.',
+    'service.integration.gain': 'Recibirás:',
+    'service.integration.gain.list': ['Indicaciones reflexivas y de autoanálisis', 'Apoyo emocional y psicológico', 'Conexión grupal e ideas compartidas'],
+    'service.integration.details': 'Detalles:',
+    'service.integration.details.list': ['Duración: 2 horas', 'Idioma: Inglés o Español', 'Precio: $25 USD por persona'],
+    'service.integration.description': '',
+    'service.integration.features': [],
     
     // Contact
     'contact.section': 'CONTACTO',
@@ -198,10 +202,14 @@ const translations = {
     'service.retreats.description': 'Before participating in a session (with me or another facilitator), I offer preparatory support using meditations, breathing techniques, reflective exercises, and grounding practices. This process helps you approach your experience from a place of awareness, openness, trust, and respect for your personal journey.',
     'service.retreats.features': ['Preparation tools', 'Meditations and breathing', 'Minimum 8 sessions', 'Maximum 12 sessions'],
     
-    'service.integration.title': 'Integration',
-    'service.integration.subtitle': 'Incorporation Process',
-    'service.integration.description': 'Post-ceremony therapeutic support to process and integrate experiences into daily life.',
-    'service.integration.features': ['Processing sessions', 'Therapeutic follow-up', 'Lifestyle integration', 'Support groups'],
+    'service.integration.title': 'Post-Experience Sharing & Integration Circles',
+    'service.integration.subtitle': 'Group sessions on Zoom led by an experienced psychologist, designed to share, reflect, and integrate experiences with psychedelic or expanded-state work.',
+    'service.integration.gain': "You'll receive:",
+    'service.integration.gain.list': ['Reflective and self-analysis prompts', 'Emotional and psychological support', 'Group connection and shared insights'],
+    'service.integration.details': 'Details:',
+    'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish', 'Price: $25 USD per person'],
+    'service.integration.description': '',
+    'service.integration.features': [],
     
     // Contact
     'contact.section': 'CONTACT',
