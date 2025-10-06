@@ -57,7 +57,7 @@ const translations = {
     'service.therapy.subtitle': 'Formato: Sesiones 1-1 por Zoom',
     'service.therapy.description': 'Sesiones personalizadas con una psicóloga entrenada en múltiples marcos terapéuticos y psicológicos para acompañarte en tu proceso de introspección y autoconocimiento.',
     'service.therapy.gain': 'Obtendrás:',
-    'service.therapy.features': ['Técnicas de autoconocimiento', 'Una conexión más profunda contigo mismo', 'Preguntas reflexivas y de autoinvestigación', 'Escucha activa y apoyo empático', 'Ejercicios de escritura y journaling'],
+    'service.therapy.features': ['Técnicas de autoconocimiento', 'Una conexión más profunda contigo mismo', 'Preguntas reflexivas y de autoindagación', 'Escucha activa y apoyo empático', 'Ejercicios de escritura y journaling'],
     
     'service.introspection.title': 'Círculos de Mujeres',
     'service.introspection.subtitle': 'Espacios de Crecimiento Femenino',

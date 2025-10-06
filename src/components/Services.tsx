@@ -8,7 +8,7 @@ const Services = () => {
   const getFeatures = (key: string): string[] => {
     const translations = {
       es: {
-        'service.therapy.features': ['Técnicas de autoconocimiento', 'Una conexión más profunda contigo mismo', 'Preguntas reflexivas y de autoinvestigación', 'Escucha activa y apoyo empático', 'Ejercicios de escritura y journaling'],
+        'service.therapy.features': ['Técnicas de autoconocimiento', 'Una conexión más profunda contigo mismo', 'Preguntas reflexivas y de autoindagación', 'Escucha activa y apoyo empático', 'Ejercicios de escritura y journaling'],
         'service.introspection.features': ['26 semanas de duración', '3 horas por sesión', 'Grupos en español e inglés', 'Solo mujeres 21-70 años', 'Cupo limitado', '$25 USD por sesión'],
         'service.introspection.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión', 'Rango de edad: Mujeres de 21–80 años'],
         'service.accompaniment.features': ['26 semanas de duración', 'Sesiones de 2 horas', 'Grupos en español e inglés', 'Hombres y mujeres 21-80 años', 'Cupo limitado', '$25 USD por sesión'],
