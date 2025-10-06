@@ -6,11 +6,17 @@ const Hero = () => {
     t
   } = useLanguage();
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background with ceremony image */}
-      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30 blur-md" style={{
-      backgroundImage: `url(${ceremonyBackground})`
-    }} />
-      <div className="absolute inset-0 bg-gentle-gradient" />
+      {/* Background with ceremony image - blurred */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat scale-110 blur-sm" 
+          style={{
+            backgroundImage: `url(${ceremonyBackground})`,
+            opacity: 0.25
+          }} 
+        />
+      </div>
+      <div className="absolute inset-0 bg-gentle-gradient opacity-80" />
       <div className="absolute inset-0 sacred-pattern" />
       
       {/* Floating elements */}
