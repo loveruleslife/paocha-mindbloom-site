@@ -22,8 +22,8 @@ const translations = {
     // Hero
     'hero.tagline': 'PSICÓLOGA PAOLA ECHARTEA CRUZ',
     'hero.title': 'Paochamama',
-    'hero.subtitle': 'Reprogramando la mente a través de estados no ordinarios de conciencia',
-    'hero.description': 'Acompañamiento terapéutico especializado en expansión de conciencia, ceremonias sagradas e integración holística para el crecimiento personal y la sanación.',
+    'hero.subtitle': 'Reprogramando la mente a través de estados amplificados de conciencia',
+    'hero.description': 'Acompañamiento terapéutico especializado en expansión de conciencia, ceremonias sagradas e integración holística para el crecimiento personal y la transformación.',
     'hero.cta.main': 'Agendar Consulta',
     'hero.cta.secondary': 'Conoce Nuestros Servicios',
     'hero.credentials.licensed': 'Psicóloga Licenciada',
@@ -153,8 +153,8 @@ const translations = {
     // Hero
     'hero.tagline': 'PSYCHOLOGIST PAOLA ECHARTEA CRUZ',
     'hero.title': 'Paochamama',
-    'hero.subtitle': 'Reprogramming the mind through non-ordinary states of consciousness',
-    'hero.description': 'Specialized therapeutic accompaniment in consciousness expansion, sacred ceremonies and holistic integration for personal growth and healing.',
+    'hero.subtitle': 'Reprogramming the mind through amplified states of consciousness',
+    'hero.description': 'Specialized therapeutic accompaniment in consciousness expansion, sacred ceremonies and holistic integration for personal growth and transformation.',
     'hero.cta.main': 'Schedule Consultation',
     'hero.cta.secondary': 'Learn About Our Services',
     'hero.credentials.licensed': 'Licensed Psychologist',
