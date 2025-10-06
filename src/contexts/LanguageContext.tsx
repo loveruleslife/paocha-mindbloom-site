@@ -81,7 +81,7 @@ const translations = {
     'service.ceremonies.description': '',
     
     'service.retreats.title': 'Retiros',
-    'service.retreats.subtitle': 'Los retiros son espacios inmersivos para la autorreflexión, la sanación y la transformación interior. A través de la psicología, la meditación, la respiración guiada y el autoanálisis, accederás a niveles más profundos de autocomprensión.',
+    'service.retreats.subtitle': 'Conexión Individual y Grupal',
     'service.retreats.options': 'Opciones:',
     'service.retreats.options.list': ['Retiros individuales o grupales', 'Los retiros pueden modificarse para satisfacer tus necesidades individuales'],
     'service.retreats.closing': 'Cada retiro ofrece un entorno sagrado y seguro para la reconexión y la renovación.',
@@ -94,7 +94,7 @@ const translations = {
     'service.preparation.closing': 'Este proceso te ayuda a acercarte a tu experiencia desde un lugar de conciencia, apertura, confianza y respeto por tu viaje personal.',
     
     'service.integration.title': 'Círculos de Compartición e Integración Post-Experiencia',
-    'service.integration.subtitle': 'Sesiones grupales por Zoom dirigidas por una psicóloga experimentada, diseñadas para compartir, reflexionar e integrar experiencias con trabajo psicodélico o de estados expandidos.',
+    'service.integration.subtitle': 'Conectando Experiencias',
     'service.integration.gain': 'Recibirás:',
     'service.integration.gain.list': ['Indicaciones reflexivas y de autoanálisis', 'Apoyo emocional y psicológico', 'Conexión grupal e ideas compartidas'],
     'service.integration.details': 'Detalles:',
@@ -103,7 +103,7 @@ const translations = {
     'service.integration.features': [],
     
     'service.individual.title': 'Terapia de Integración Individual',
-    'service.individual.subtitle': 'Apoyo psicológico uno a uno para procesar e integrar las percepciones de experiencias de estados expandidos o ceremoniales. Estas sesiones ayudan a traducir tu experiencia en una transformación significativa y fundamentada.',
+    'service.individual.subtitle': 'Tiempo de Reflexión',
     'service.individual.approach': 'Enfoque:',
     'service.individual.approach.list': ['Utiliza la escritura, el arte y el diálogo reflexivo para construir conciencia emocional y equilibrio interior.', 'Ideal para quienes han participado en ceremonias terapéuticas o chamánicas y buscan una comprensión más profunda e integrada.'],
     'service.individual.description': '',
@@ -212,7 +212,7 @@ const translations = {
     'service.ceremonies.description': '',
     
     'service.retreats.title': 'Retreats',
-    'service.retreats.subtitle': 'Retreats are immersive spaces for self-reflection, healing, and inner transformation. Through psychology, meditation, guided breathing, and self-analysis, you\'ll access deeper levels of self-understanding.',
+    'service.retreats.subtitle': 'Individual and Group Connection',
     'service.retreats.options': 'Options:',
     'service.retreats.options.list': ['Individual or group retreats', 'Retreats can be modified to meet your individual needs'],
     'service.retreats.closing': 'Each retreat offers a sacred, safe environment for reconnection and renewal.',
@@ -225,7 +225,7 @@ const translations = {
     'service.preparation.closing': 'This process helps you approach your experience from a place of awareness, openness, trust, and respect for your personal journey.',
     
     'service.integration.title': 'Post-Experience Sharing & Integration Circles',
-    'service.integration.subtitle': 'Group sessions on Zoom led by an experienced psychologist, designed to share, reflect, and integrate experiences with psychedelic or expanded-state work.',
+    'service.integration.subtitle': 'Connecting Experiences',
     'service.integration.gain': "You'll receive:",
     'service.integration.gain.list': ['Reflective and self-analysis prompts', 'Emotional and psychological support', 'Group connection and shared insights'],
     'service.integration.details': 'Details:',
@@ -234,7 +234,7 @@ const translations = {
     'service.integration.features': [],
     
     'service.individual.title': 'Individual Integration Therapy',
-    'service.individual.subtitle': 'One-on-one psychological support to process and integrate the insights from expanded-state or ceremonial experiences. These sessions help translate your experience into meaningful, grounded transformation.',
+    'service.individual.subtitle': 'Reflection Time',
     'service.individual.approach': 'Approach:',
     'service.individual.approach.list': ['Uses writing, art, and reflective dialogue to build emotional awareness and inner balance.', 'Ideal for those who have participated in therapeutic or shamanic ceremonies and seek a deeper, integrated understanding.'],
     'service.individual.description': '',
