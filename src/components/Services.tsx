@@ -13,6 +13,7 @@ const Services = () => {
         'service.introspection.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión', 'Rango de edad: Mujeres de 21–80 años'],
         'service.accompaniment.features': ['26 semanas de duración', 'Sesiones de 2 horas', 'Grupos en español e inglés', 'Hombres y mujeres 21-80 años', 'Cupo limitado', '$25 USD por sesión'],
         'service.accompaniment.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión por persona', 'Rango de edad: 21–80 años'],
+        'service.ceremonies.includes.list': ['Sesiones de preparación individuales', 'Sesiones terapéuticas con medicina (si es apropiado)', 'Terapia de integración posterior a la sesión'],
         'service.ceremonies.features': ['12 sesiones previas (3 meses)', 'Terapia con psicodélicos', '4 sesiones de integración', 'Acompañamiento personalizado'],
         'service.retreats.features': ['Herramientas de preparación', 'Meditaciones y respiración', 'Mínimo 8 sesiones', 'Máximo 12 sesiones'],
         'service.integration.features': ['Sesiones de procesamiento', 'Seguimiento terapéutico', 'Integración de estilo de vida', 'Grupos de apoyo']
@@ -23,6 +24,7 @@ const Services = () => {
         'service.introspection.details.list': ['Frequency: Once per week (2 hours each)', 'Language: English or Spanish', 'Price: $25 USD per session', 'Age range: Women 21–80 years'],
         'service.accompaniment.features': ['26-week duration', '2-hour sessions', 'Spanish and English groups', 'Men and women 21-80 years', 'Limited capacity', '$25 USD per session'],
         'service.accompaniment.details.list': ['Frequency: Once per week (2 hours each)', 'Language: English or Spanish', 'Price: $25 USD per session per person', 'Age range: 21–80 years'],
+        'service.ceremonies.includes.list': ['One-on-one preparation sessions', 'Therapeutic sessions with medicine (if appropriate)', 'Post-session integration therapy'],
         'service.ceremonies.features': ['12 prior sessions (3 months)', 'Psychedelic therapy', '4 integration sessions', 'Personalized accompaniment'],
         'service.retreats.features': ['Preparation tools', 'Meditations and breathing', 'Minimum 8 sessions', 'Maximum 12 sessions'],
         'service.integration.features': ['Processing sessions', 'Therapeutic follow-up', 'Lifestyle integration', 'Support groups']
@@ -63,8 +65,10 @@ const Services = () => {
     {
       title: t('service.ceremonies.title'),
       subtitle: t('service.ceremonies.subtitle'),
-      description: t('service.ceremonies.description'),
-      features: getFeatures('service.ceremonies.features'),
+      intro: t('service.ceremonies.intro'),
+      includes: t('service.ceremonies.includes'),
+      includesList: getFeatures('service.ceremonies.includes.list'),
+      warning: t('service.ceremonies.warning'),
       color: "sacred",
       gradient: "from-sacred/20 to-sacred/5"
     },
@@ -131,13 +135,13 @@ const Services = () => {
                       service.subtitle
                     )}
                   </p>
-                  {/* Intro text for Women's Circles */}
+                  {/* Intro text for Women's Circles and Mixed Circles */}
                   {service.intro && (
                     <p className="text-foreground mb-4 leading-relaxed">
                       {service.intro}
                     </p>
                   )}
-                  {/* Details list for Women's Circles */}
+                  {/* Details list for Women's Circles and Mixed Circles */}
                   {service.detailsList && service.detailsList.length > 0 && (
                     <div className="mt-4 mb-4">
                       <p className="font-bold text-foreground mb-3">{service.details}</p>
@@ -151,9 +155,31 @@ const Services = () => {
                       </ul>
                     </div>
                   )}
-                  <p className="text-muted-foreground mb-6 leading-relaxed">
-                    {service.description}
-                  </p>
+                  {/* Includes list for Therapy in Amplified States */}
+                  {service.includesList && service.includesList.length > 0 && (
+                    <div className="mt-4 mb-4">
+                      <p className="font-bold text-foreground mb-3">{service.includes}</p>
+                      <ul className="space-y-2">
+                        {service.includesList.map((item: string, idx: number) => (
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
+                            <span className={`text-${service.color} mt-1`}>•</span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  {/* Warning for Therapy in Amplified States */}
+                  {service.warning && (
+                    <p className="text-foreground text-sm mt-4 leading-relaxed">
+                      {service.warning}
+                    </p>
+                  )}
+                  {service.description && (
+                    <p className="text-muted-foreground mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
+                  )}
                   
                   {/* Features list for therapy service */}
                   {service.features && service.features.length > 0 && index === 0 && (

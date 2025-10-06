@@ -74,8 +74,11 @@ const translations = {
     
     'service.ceremonies.title': 'Terapia en Estados Amplificados de Conciencia',
     'service.ceremonies.subtitle': 'Acompañamiento Personalizado',
-    'service.ceremonies.description': 'Acompañamiento, guía y supervisión personalizada para tener una experiencia más profunda y significativa. El objetivo es poder generar confianza mutua en el proceso y acompañamiento de estados no ordinarios de consciencia obteniendo herramientas significativas y duraderas para poder integrar nuevas formas de relacionarte contigo y tu alrededor. Incluye: 12 sesiones uno a uno previas a la experiencia (3 meses), la terapia con psicodélicos, 4 sesiones de integración posteriores a la toma.',
-    'service.ceremonies.features': ['12 sesiones previas (3 meses)', 'Terapia con psicodélicos', '4 sesiones de integración', 'Acompañamiento personalizado'],
+    'service.ceremonies.intro': 'Guía y supervisión personalizada para apoyar experiencias seguras y significativas en estados expandidos de conciencia. El objetivo es construir confianza mutua y proporcionar herramientas a largo plazo para integrar nuevas formas de relacionarse consigo mismo y con el mundo.',
+    'service.ceremonies.includes': 'Incluye:',
+    'service.ceremonies.includes.list': ['Sesiones de preparación individuales', 'Sesiones terapéuticas con medicina (si es apropiado)', 'Terapia de integración posterior a la sesión'],
+    'service.ceremonies.warning': '⚠️ Esta terapia no es adecuada para todos. Se requiere una consulta preliminar para evaluar la elegibilidad.',
+    'service.ceremonies.description': '',
     
     'service.retreats.title': 'Preparación Previa a Terapia Con Psicodélicos',
     'service.retreats.subtitle': 'Preparación Especializada',
@@ -184,8 +187,11 @@ const translations = {
     
     'service.ceremonies.title': 'Therapy in Amplified States of Consciousness',
     'service.ceremonies.subtitle': 'Personalized Accompaniment',
-    'service.ceremonies.description': 'Personalized guidance and supervision to have a deeper and more meaningful experience. The goal is to generate mutual trust in the process and accompaniment of non-ordinary states of consciousness, obtaining significant and lasting tools to integrate new ways of relating to yourself and your surroundings. Includes: 12 one-on-one sessions prior to the experience (3 months), psychedelic therapy, 4 integration sessions after the session.',
-    'service.ceremonies.features': ['12 prior sessions (3 months)', 'Psychedelic therapy', '4 integration sessions', 'Personalized accompaniment'],
+    'service.ceremonies.intro': 'Personalized guidance and supervision to support safe and meaningful experiences in expanded states of consciousness. The goal is to build mutual trust and provide long-term tools for integrating new ways of relating to yourself and the world.',
+    'service.ceremonies.includes': 'Includes:',
+    'service.ceremonies.includes.list': ['One-on-one preparation sessions', 'Therapeutic sessions with medicine (if appropriate)', 'Post-session integration therapy'],
+    'service.ceremonies.warning': '⚠️ This therapy is not suitable for everyone. A preliminary consultation is required to assess eligibility.',
+    'service.ceremonies.description': '',
     
     'service.retreats.title': 'Preparation Prior To Psychedelic Therapy',
     'service.retreats.subtitle': 'Specialized Preparation',
