@@ -19,7 +19,7 @@ const About = () => {
                 <p className="text-muted-foreground italic text-base text-center flex-1 px-4">
                   {t('about.quote')}
                 </p>
-                <div className="rounded-full overflow-hidden border-2 border-white flex-shrink-0" style={{ width: '96px', height: '96px' }}>
+                <div className="rounded-full overflow-hidden border-2 border-white flex-shrink-0" style={{ width: '96px', height: '96px', marginRight: '24px' }}>
                   <img src="/lovable-uploads/e09f1065-92d1-43f0-bb40-215f62ba27af.png" alt="Paola - Transpersonal Therapist" className="w-full h-full object-cover" />
                 </div>
               </div>
