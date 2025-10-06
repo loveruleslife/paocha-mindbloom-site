@@ -94,6 +94,12 @@ const translations = {
     'service.integration.description': '',
     'service.integration.features': [],
     
+    'service.individual.title': 'Terapia de Integración Individual',
+    'service.individual.subtitle': 'Apoyo psicológico uno a uno para procesar e integrar las percepciones de experiencias de estados expandidos o ceremoniales. Estas sesiones ayudan a traducir tu experiencia en una transformación significativa y fundamentada.',
+    'service.individual.approach': 'Enfoque:',
+    'service.individual.approach.list': ['Utiliza la escritura, el arte y el diálogo reflexivo para construir conciencia emocional y equilibrio interior.', 'Ideal para quienes han participado en ceremonias terapéuticas o chamánicas y buscan una comprensión más profunda e integrada.'],
+    'service.individual.description': '',
+    
     // Contact
     'contact.section': 'CONTACTO',
     'contact.title': 'Conecta Conmigo',
@@ -210,6 +216,12 @@ const translations = {
     'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish', 'Price: $25 USD per person'],
     'service.integration.description': '',
     'service.integration.features': [],
+    
+    'service.individual.title': 'Individual Integration Therapy',
+    'service.individual.subtitle': 'One-on-one psychological support to process and integrate the insights from expanded-state or ceremonial experiences. These sessions help translate your experience into meaningful, grounded transformation.',
+    'service.individual.approach': 'Approach:',
+    'service.individual.approach.list': ['Uses writing, art, and reflective dialogue to build emotional awareness and inner balance.', 'Ideal for those who have participated in therapeutic or shamanic ceremonies and seek a deeper, integrated understanding.'],
+    'service.individual.description': '',
     
     // Contact
     'contact.section': 'CONTACT',

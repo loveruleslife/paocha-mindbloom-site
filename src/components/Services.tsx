@@ -17,7 +17,8 @@ const Services = () => {
         'service.ceremonies.features': ['12 sesiones previas (3 meses)', 'Terapia con psicodélicos', '4 sesiones de integración', 'Acompañamiento personalizado'],
         'service.retreats.features': ['Herramientas de preparación', 'Meditaciones y respiración', 'Mínimo 8 sesiones', 'Máximo 12 sesiones'],
         'service.integration.gain.list': ['Indicaciones reflexivas y de autoanálisis', 'Apoyo emocional y psicológico', 'Conexión grupal e ideas compartidas'],
-        'service.integration.details.list': ['Duración: 2 horas', 'Idioma: Inglés o Español', 'Precio: $25 USD por persona']
+        'service.integration.details.list': ['Duración: 2 horas', 'Idioma: Inglés o Español', 'Precio: $25 USD por persona'],
+        'service.individual.approach.list': ['Utiliza la escritura, el arte y el diálogo reflexivo para construir conciencia emocional y equilibrio interior.', 'Ideal para quienes han participado en ceremonias terapéuticas o chamánicas y buscan una comprensión más profunda e integrada.']
       },
       en: {
         'service.therapy.features': ['Self-awareness techniques', 'A deeper connection with yourself', 'Reflective and self-inquiry questions', 'Active listening and empathetic support', 'Writing and journaling exercises'],
@@ -29,7 +30,8 @@ const Services = () => {
         'service.ceremonies.features': ['12 prior sessions (3 months)', 'Psychedelic therapy', '4 integration sessions', 'Personalized accompaniment'],
         'service.retreats.features': ['Preparation tools', 'Meditations and breathing', 'Minimum 8 sessions', 'Maximum 12 sessions'],
         'service.integration.gain.list': ['Reflective and self-analysis prompts', 'Emotional and psychological support', 'Group connection and shared insights'],
-        'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish', 'Price: $25 USD per person']
+        'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish', 'Price: $25 USD per person'],
+        'service.individual.approach.list': ['Uses writing, art, and reflective dialogue to build emotional awareness and inner balance.', 'Ideal for those who have participated in therapeutic or shamanic ceremonies and seek a deeper, integrated understanding.']
       }
     };
     return translations[language][key as keyof typeof translations[typeof language]] || [];
@@ -91,6 +93,14 @@ const Services = () => {
       detailsList: getFeatures('service.integration.details.list'),
       color: "secondary",
       gradient: "from-secondary/10 to-primary/10"
+    },
+    {
+      title: t('service.individual.title'),
+      subtitle: t('service.individual.subtitle'),
+      approach: t('service.individual.approach'),
+      approachList: getFeatures('service.individual.approach.list'),
+      color: "accent",
+      gradient: "from-accent/20 to-accent/5"
     }
   ];
 
@@ -191,6 +201,21 @@ const Services = () => {
                       <p className="font-bold text-foreground mb-3">{service.gain}</p>
                       <ul className="space-y-2">
                         {service.gainList.map((item: string, idx: number) => (
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
+                            <span className={`text-${service.color} mt-1`}>•</span>
+                            <span>{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  
+                  {/* Approach list for Individual Integration Therapy */}
+                  {service.approachList && service.approachList.length > 0 && (
+                    <div className="mt-4">
+                      <p className="font-bold text-foreground mb-3">{service.approach}</p>
+                      <ul className="space-y-2">
+                        {service.approachList.map((item: string, idx: number) => (
                           <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
                             <span className={`text-${service.color} mt-1`}>•</span>
                             <span>{item}</span>
