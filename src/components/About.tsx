@@ -14,7 +14,7 @@ const About = () => {
               {/* Logo, Quote, and Photo Section */}
               <div className="flex items-center mb-8 gap-6">
                 <div className="flex-shrink-0 flex items-center justify-center rounded-full border-2 border-white" style={{ width: '96px', height: '96px', marginLeft: '24px' }}>
-                  <img src={paochamamaLogo} alt="PaochaMama logo with sacred geometry" className="w-full h-full object-cover animate-sacred-pulse" />
+                  <img src={paochamamaLogo} alt="PaochaMama logo with sacred geometry" className="w-full h-full object-contain rounded-full animate-sacred-pulse" />
                 </div>
                 <p className="text-muted-foreground italic text-base text-center flex-1 px-4">
                   {t('about.quote')}
