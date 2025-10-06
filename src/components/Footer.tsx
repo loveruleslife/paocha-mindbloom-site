@@ -41,9 +41,11 @@ const Footer = () => {
               <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Individual Online Psychotherapy</a></li>
               <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Women's Circles</a></li>
               <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Mixed Circles (Men and Women)</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Therapy With Psychedelics</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Preparation Prior To Therapy With Psychedelics</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Integration</a></li>
+              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Therapy in Amplified States of Consciousness</a></li>
+              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Retreats</a></li>
+              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Preparation for Therapeutic Sessions in Amplified States</a></li>
+              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Post-Experience Sharing & Integration Circles</a></li>
+              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Individual Integration Therapy</a></li>
             </ul>
           </div>
 
