@@ -36,17 +36,17 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="font-heading font-semibold text-lg mb-6">{t('footer.services.title')}</h4>
-            <ul className="space-y-3">
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Individual Online Psychotherapy</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Women's Circles</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Mixed Circles (Men and Women)</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Therapy in Amplified States of Consciousness</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Retreats</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Preparation for Therapeutic Sessions in Amplified States</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Post-Experience Sharing & Integration Circles</a></li>
-              <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">Individual Integration Therapy</a></li>
-            </ul>
+          <h4 className="font-heading font-semibold text-lg mb-6">{t('footer.services.title')}</h4>
+          <ul className="space-y-3">
+            <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('service.therapy.title')}</a></li>
+            <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('service.introspection.title')}</a></li>
+            <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('service.accompaniment.title')}</a></li>
+            <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('service.ceremonies.title')}</a></li>
+            <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('service.retreats.title')}</a></li>
+            <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('service.preparation.title')}</a></li>
+            <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('service.integration.title')}</a></li>
+            <li><a href="#services" className="text-primary-foreground/80 hover:text-accent transition-smooth">{t('service.individual.title')}</a></li>
+          </ul>
           </div>
 
           {/* Contact */}
