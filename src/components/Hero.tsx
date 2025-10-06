@@ -35,15 +35,15 @@ const Hero = () => {
             {t('hero.title')}
           </h1>
           
-          <h2 className="text-2xl md:text-3xl font-heading text-foreground/90 mb-8 max-w-2xl mx-auto">
-            {t('hero.subtitle')}
-          </h2>
-          
-          <div className="inline-block bg-white/95 rounded-full px-8 py-4 mb-12 shadow-lg">
-            <p className="text-lg font-medium leading-relaxed" style={{ color: '#00CED1' }}>
-              {t('hero.description')}
-            </p>
+          <div className="inline-block bg-white/95 rounded-full px-8 py-4 mb-8 shadow-lg">
+            <h2 className="text-2xl md:text-3xl font-heading" style={{ color: '#00CED1' }}>
+              {t('hero.subtitle')}
+            </h2>
           </div>
+          
+          <p className="text-lg font-medium text-foreground/90 max-w-2xl mx-auto mb-12 leading-relaxed drop-shadow-sm">
+            {t('hero.description')}
+          </p>
         </div>
         
         <div className="flex justify-center">
