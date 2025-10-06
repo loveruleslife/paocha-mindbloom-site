@@ -80,9 +80,9 @@ const translations = {
     'service.ceremonies.warning': '⚠️ Esta terapia no es adecuada para todos. Se requiere una consulta preliminar para evaluar la elegibilidad.',
     'service.ceremonies.description': '',
     
-    'service.retreats.title': 'Preparación Previa a Terapia Con Psicodélicos',
+    'service.retreats.title': 'Preparación para Sesiones Terapéuticas en Estados Amplificados',
     'service.retreats.subtitle': 'Preparación Especializada',
-    'service.retreats.description': 'Antes de una sesión de psicodélicos ya sea conmigo o con otro terapeuta te acompaño y guío con herramientas, actividades, meditaciones, técnicas de respiración, entre otras para que tu experiencia pueda ser desde un espacio de reconocimiento, apertura, sensibilidad, confianza y respeto hacia tu proceso personal. Se recomienda un mínimo de 8 sesiones, máximo 12 sesiones. Agenda tu sesión individual.',
+    'service.retreats.description': 'Antes de participar en una sesión (conmigo o con otro facilitador), ofrezco apoyo preparatorio usando meditaciones, técnicas de respiración, ejercicios reflexivos y prácticas de anclaje. Este proceso te ayuda a acercarte a tu experiencia desde un lugar de conciencia, apertura, confianza y respeto por tu viaje personal.',
     'service.retreats.features': ['Herramientas de preparación', 'Meditaciones y respiración', 'Mínimo 8 sesiones', 'Máximo 12 sesiones'],
     
     'service.integration.title': 'Integración',
@@ -193,9 +193,9 @@ const translations = {
     'service.ceremonies.warning': '⚠️ This therapy is not suitable for everyone. A preliminary consultation is required to assess eligibility.',
     'service.ceremonies.description': '',
     
-    'service.retreats.title': 'Preparation Prior To Psychedelic Therapy',
+    'service.retreats.title': 'Preparation for Therapeutic Sessions in Amplified States',
     'service.retreats.subtitle': 'Specialized Preparation',
-    'service.retreats.description': 'Before a psychedelic session, whether with me or another therapist, I accompany and guide you with tools, activities, meditations, breathing techniques, among others so that your experience can be from a space of recognition, openness, sensitivity, trust and respect towards your personal process. A minimum of 8 sessions is recommended, maximum 12 sessions. Schedule your individual session.',
+    'service.retreats.description': 'Before participating in a session (with me or another facilitator), I offer preparatory support using meditations, breathing techniques, reflective exercises, and grounding practices. This process helps you approach your experience from a place of awareness, openness, trust, and respect for your personal journey.',
     'service.retreats.features': ['Preparation tools', 'Meditations and breathing', 'Minimum 8 sessions', 'Maximum 12 sessions'],
     
     'service.integration.title': 'Integration',
