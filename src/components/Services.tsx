@@ -100,6 +100,7 @@ const Services = () => {
     {
       title: t('service.integration.title'),
       subtitle: t('service.integration.subtitle'),
+      intro: t('service.integration.intro'),
       gain: t('service.integration.gain'),
       gainList: getFeatures('service.integration.gain.list'),
       details: t('service.integration.details'),
