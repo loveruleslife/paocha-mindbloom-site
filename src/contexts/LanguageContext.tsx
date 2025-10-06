@@ -34,7 +34,7 @@ const translations = {
     'about.section': 'SOBRE PAOLA',
     'about.title': 'Guiando el Camino Hacia la Transformación de la Consciencia',
     'about.quote': '"La transformación verdadera ocurre cuando reconectamos con nuestra esencia más profunda"',
-    'about.p1': 'Soy Paola Echartea Cruz, psicóloga especializada en terapias de expansión de consciencia y acompañamiento en estados amplificados de consciencia. Mi enfoque integra la psicología clínica tradicional con sabidurías ancestrales y educación junto con integración para experiencias no ordinarias.',
+    'about.p1': 'Soy Paola Echartea Cruz, psicóloga especializada en terapias de expansión de la consciencia y en el acompañamiento durante estados amplificados de consciencia.\nMi enfoque integra la psicología clínica tradicional con procesos de educación e integración para experiencias en estados no ordinarios de consciencia, incorporando además la sabiduría ancestral como base para una transformación integral.',
     'about.p2': 'Con años de formación en psicología y ceremonias sagradas, ofrezco un espacio seguro para la exploración profunda del ser y la transformación de patrones limitantes que nos impiden vivir plenamente.',
     'about.p3': 'Mi misión es acompañar a las personas en su proceso de autodescubrimiento, brindando herramientas para integrar experiencias de la vida cotidiana y generar cambios duraderos.',
     'about.education.title': 'Educación y Experiencia',
