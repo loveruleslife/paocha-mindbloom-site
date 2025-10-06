@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
+import paochamamaLogo from "@/assets/paochamama-logo.png";
 const About = () => {
   const {
     t
@@ -13,7 +14,7 @@ const About = () => {
               {/* Logo, Quote, and Photo Section */}
               <div className="flex items-center justify-between mb-8 gap-6">
                 <div className="w-24 h-24 flex items-center justify-center flex-shrink-0">
-                  <img src="/lovable-uploads/c2b70d41-42e1-4a47-a06d-51aaf2be7517.png" alt="PaochaMama logo with sacred geometry" className="w-full h-full object-contain animate-sacred-pulse" />
+                  <img src={paochamamaLogo} alt="PaochaMama logo with sacred geometry" className="w-full h-full object-contain animate-sacred-pulse rounded-full" />
                 </div>
                 <p className="text-muted-foreground italic text-base text-center flex-1 px-4">
                   {t('about.quote')}
