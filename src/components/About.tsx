@@ -12,7 +12,7 @@ const About = () => {
           <div className="relative">
             <div className="bg-gradient-to-br from-accent/20 to-sacred/20 rounded-2xl p-8">
               {/* Logo, Quote, and Photo Section */}
-              <div className="flex items-center justify-start mb-8 gap-6">
+              <div className="flex items-center mb-8 gap-6">
                 <div className="flex-shrink-0 flex items-center justify-center" style={{ width: '216px', height: '216px', marginLeft: '24px' }}>
                   <img src={paochamamaLogo} alt="PaochaMama logo with sacred geometry" className="w-full h-full object-cover animate-sacred-pulse" style={{ mixBlendMode: 'multiply' }} />
                 </div>
