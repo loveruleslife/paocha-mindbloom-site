@@ -20,7 +20,7 @@ const About = () => {
                   {t('about.quote')}
                 </p>
                 <div className="w-24 h-24 rounded-full overflow-hidden border-2 border-sacred/20 flex-shrink-0">
-                  <img src="/lovable-uploads/e09f1065-92d1-43f0-bb40-215f62ba27af.png" alt="Paola - Transpersonal Therapist" className="w-full h-full object-cover" />
+                  <img src="/lovable-uploads/e09f1065-92d1-43f0-bb40-215f62ba27af.png" alt="Paola - Transpersonal Therapist" className="w-full h-full object-cover border-2 border-white rounded-full" />
                 </div>
               </div>
               
