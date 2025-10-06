@@ -113,7 +113,7 @@ const translations = {
     // Contact
     'contact.section': 'CONTACTO',
     'contact.title': 'Conecta Conmigo',
-    'contact.description': 'Ya sea que estés buscando alivio del estrés, sanación emocional, crecimiento espiritual, o una conexión más profunda contigo mismo, estoy aquí para guiarte con compasión, creatividad y cuidado.',
+    'contact.description': 'Ya sea que estés buscando alivio del estrés, transformación emocional, crecimiento espiritual, o una conexión más profunda contigo mismo, estoy aquí para guiarte con compasión, creatividad y cuidado.',
     'contact.info.title': 'Información de Contacto',
     'contact.info.email': 'Correo Electrónico',
     'contact.info.email.value': 'paochamama@gmail.com',
@@ -246,7 +246,7 @@ const translations = {
     // Contact
     'contact.section': 'CONTACT',
     'contact.title': 'Connect With Me',
-    'contact.description': 'Whether you are seeking stress relief, emotional healing, spiritual growth, or a deeper connection to yourself, I\'m here to guide you with compassion, creativity, and care.',
+    'contact.description': 'Whether you are seeking stress relief, emotional transformation, spiritual growth, or a deeper connection to yourself, I\'m here to guide you with compassion, creativity, and care.',
     'contact.info.title': 'Contact Information',
     'contact.info.email': 'Email',
     'contact.info.email.value': 'paochamama@gmail.com',
