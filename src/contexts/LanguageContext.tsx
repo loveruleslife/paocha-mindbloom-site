@@ -231,6 +231,7 @@ const translations = {
     
     'service.integration.title': 'Post-Experience Sharing & Integration Circles',
     'service.integration.subtitle': 'Connecting Experiences',
+    'service.integration.intro': 'An online group space guided by a psychologist specialized in amplified states of consciousness. The goal is to listen to different experiences, share reflections, and explore together the before, during, and after of the experience with medicine or expanded states.',
     'service.integration.gain': "You'll receive:",
     'service.integration.gain.list': ['Reflective and self-analysis prompts', 'Emotional and psychological support', 'Group connection and shared insights'],
     'service.integration.details': 'Details:',
