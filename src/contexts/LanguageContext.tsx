@@ -80,10 +80,16 @@ const translations = {
     'service.ceremonies.warning': '⚠️ Esta terapia no es adecuada para todos. Se requiere una consulta preliminar para evaluar la elegibilidad.',
     'service.ceremonies.description': '',
     
-    'service.retreats.title': 'Preparación para Sesiones Terapéuticas en Estados Amplificados',
-    'service.retreats.subtitle': 'Preparación Especializada',
-    'service.retreats.description': 'Antes de participar en una sesión (conmigo o con otro facilitador), ofrezco apoyo preparatorio usando meditaciones, técnicas de respiración, ejercicios reflexivos y prácticas de anclaje. Este proceso te ayuda a acercarte a tu experiencia desde un lugar de conciencia, apertura, confianza y respeto por tu viaje personal.',
-    'service.retreats.features': ['Herramientas de preparación', 'Meditaciones y respiración', 'Mínimo 8 sesiones', 'Máximo 12 sesiones'],
+    'service.retreats.title': 'Retiros',
+    'service.retreats.subtitle': 'Los retiros son espacios inmersivos para la autorreflexión, la sanación y la transformación interior. A través de la psicología, la meditación, la respiración guiada y el autoanálisis, accederás a niveles más profundos de autocomprensión.',
+    'service.retreats.options': 'Opciones:',
+    'service.retreats.options.list': ['Retiros individuales o grupales', 'Los retiros pueden modificarse para satisfacer tus necesidades individuales'],
+    'service.retreats.closing': 'Cada retiro ofrece un entorno sagrado y seguro para la reconexión y la renovación.',
+    
+    'service.preparation.title': 'Preparación para Sesiones Terapéuticas en Estados Amplificados',
+    'service.preparation.subtitle': 'Preparación Especializada',
+    'service.preparation.description': 'Antes de participar en una sesión (conmigo o con otro facilitador), ofrezco apoyo preparatorio usando meditaciones, técnicas de respiración, ejercicios reflexivos y prácticas de anclaje. Este proceso te ayuda a acercarte a tu experiencia desde un lugar de conciencia, apertura, confianza y respeto por tu viaje personal.',
+    'service.preparation.features': ['Herramientas de preparación', 'Meditaciones y respiración', 'Mínimo 8 sesiones', 'Máximo 12 sesiones'],
     
     'service.integration.title': 'Círculos de Compartición e Integración Post-Experiencia',
     'service.integration.subtitle': 'Sesiones grupales por Zoom dirigidas por una psicóloga experimentada, diseñadas para compartir, reflexionar e integrar experiencias con trabajo psicodélico o de estados expandidos.',
@@ -203,10 +209,16 @@ const translations = {
     'service.ceremonies.warning': '⚠️ This therapy is not suitable for everyone. A preliminary consultation is required to assess eligibility.',
     'service.ceremonies.description': '',
     
-    'service.retreats.title': 'Preparation for Therapeutic Sessions in Amplified States',
-    'service.retreats.subtitle': 'Specialized Preparation',
-    'service.retreats.description': 'Before participating in a session (with me or another facilitator), I offer preparatory support using meditations, breathing techniques, reflective exercises, and grounding practices. This process helps you approach your experience from a place of awareness, openness, trust, and respect for your personal journey.',
-    'service.retreats.features': ['Preparation tools', 'Meditations and breathing', 'Minimum 8 sessions', 'Maximum 12 sessions'],
+    'service.retreats.title': 'Retreats',
+    'service.retreats.subtitle': 'Retreats are immersive spaces for self-reflection, healing, and inner transformation. Through psychology, meditation, guided breathing, and self-analysis, you\'ll access deeper levels of self-understanding.',
+    'service.retreats.options': 'Options:',
+    'service.retreats.options.list': ['Individual or group retreats', 'Retreats can be modified to meet your individual needs'],
+    'service.retreats.closing': 'Each retreat offers a sacred, safe environment for reconnection and renewal.',
+    
+    'service.preparation.title': 'Preparation for Therapeutic Sessions in Amplified States',
+    'service.preparation.subtitle': 'Specialized Preparation',
+    'service.preparation.description': 'Before participating in a session (with me or another facilitator), I offer preparatory support using meditations, breathing techniques, reflective exercises, and grounding practices. This process helps you approach your experience from a place of awareness, openness, trust, and respect for your personal journey.',
+    'service.preparation.features': ['Preparation tools', 'Meditations and breathing', 'Minimum 8 sessions', 'Maximum 12 sessions'],
     
     'service.integration.title': 'Post-Experience Sharing & Integration Circles',
     'service.integration.subtitle': 'Group sessions on Zoom led by an experienced psychologist, designed to share, reflect, and integrate experiences with psychedelic or expanded-state work.',
