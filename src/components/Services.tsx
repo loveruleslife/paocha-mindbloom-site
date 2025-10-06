@@ -10,7 +10,7 @@ const Services = () => {
       es: {
         'service.therapy.features': ['Técnicas de autoconocimiento', 'Una conexión más profunda contigo mismo', 'Preguntas reflexivas y de autoinvestigación', 'Escucha activa y apoyo empático', 'Ejercicios de escritura y journaling'],
         'service.introspection.features': ['26 semanas de duración', '3 horas por sesión', 'Grupos en español e inglés', 'Solo mujeres 21-70 años', 'Cupo limitado', '$25 USD por sesión'],
-        'service.introspection.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión', 'Rango de edad: Mujeres de 21–80 años', 'Cupos limitados — Se requiere compromiso de asistencia del 80%'],
+        'service.introspection.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión', 'Rango de edad: Mujeres de 21–80 años'],
         'service.accompaniment.features': ['26 semanas de duración', 'Sesiones de 2 horas', 'Grupos en español e inglés', 'Hombres y mujeres 21-80 años', 'Cupo limitado', '$25 USD por sesión'],
         'service.accompaniment.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión por persona', 'Rango de edad: 21–80 años'],
         'service.ceremonies.features': ['12 sesiones previas (3 meses)', 'Terapia con psicodélicos', '4 sesiones de integración', 'Acompañamiento personalizado'],
@@ -20,7 +20,7 @@ const Services = () => {
       en: {
         'service.therapy.features': ['Self-awareness techniques', 'A deeper connection with yourself', 'Reflective and self-inquiry questions', 'Active listening and empathetic support', 'Writing and journaling exercises'],
         'service.introspection.features': ['26-week duration', '2-hour sessions', 'Spanish and English groups', 'Women only 21-80 years', 'Limited capacity', '$25 USD per session'],
-        'service.introspection.details.list': ['Frequency: Once per week (2 hours each)', 'Language: English or Spanish', 'Price: $25 USD per session', 'Age range: Women 21–80 years', 'Limited spots — 80% attendance commitment required'],
+        'service.introspection.details.list': ['Frequency: Once per week (2 hours each)', 'Language: English or Spanish', 'Price: $25 USD per session', 'Age range: Women 21–80 years'],
         'service.accompaniment.features': ['26-week duration', '2-hour sessions', 'Spanish and English groups', 'Men and women 21-80 years', 'Limited capacity', '$25 USD per session'],
         'service.accompaniment.details.list': ['Frequency: Once per week (2 hours each)', 'Language: English or Spanish', 'Price: $25 USD per session per person', 'Age range: 21–80 years'],
         'service.ceremonies.features': ['12 prior sessions (3 months)', 'Psychedelic therapy', '4 integration sessions', 'Personalized accompaniment'],
