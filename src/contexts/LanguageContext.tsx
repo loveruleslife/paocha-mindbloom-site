@@ -72,7 +72,7 @@ const translations = {
     'service.accompaniment.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión por persona', 'Rango de edad: 21–80 años'],
     'service.accompaniment.description': '',
     
-    'service.ceremonies.title': 'Terapia Con Psicodélicos',
+    'service.ceremonies.title': 'Terapia en Estados Amplificados de Conciencia',
     'service.ceremonies.subtitle': 'Acompañamiento Personalizado',
     'service.ceremonies.description': 'Acompañamiento, guía y supervisión personalizada para tener una experiencia más profunda y significativa. El objetivo es poder generar confianza mutua en el proceso y acompañamiento de estados no ordinarios de consciencia obteniendo herramientas significativas y duraderas para poder integrar nuevas formas de relacionarte contigo y tu alrededor. Incluye: 12 sesiones uno a uno previas a la experiencia (3 meses), la terapia con psicodélicos, 4 sesiones de integración posteriores a la toma.',
     'service.ceremonies.features': ['12 sesiones previas (3 meses)', 'Terapia con psicodélicos', '4 sesiones de integración', 'Acompañamiento personalizado'],
@@ -182,7 +182,7 @@ const translations = {
     'service.accompaniment.details.list': ['Frequency: Once per week (2 hours each)', 'Language: English or Spanish', 'Price: $25 USD per session per person', 'Age range: 21–80 years'],
     'service.accompaniment.description': '',
     
-    'service.ceremonies.title': 'Psychedelic Therapy',
+    'service.ceremonies.title': 'Therapy in Amplified States of Consciousness',
     'service.ceremonies.subtitle': 'Personalized Accompaniment',
     'service.ceremonies.description': 'Personalized guidance and supervision to have a deeper and more meaningful experience. The goal is to generate mutual trust in the process and accompaniment of non-ordinary states of consciousness, obtaining significant and lasting tools to integrate new ways of relating to yourself and your surroundings. Includes: 12 one-on-one sessions prior to the experience (3 months), psychedelic therapy, 4 integration sessions after the session.',
     'service.ceremonies.features': ['12 prior sessions (3 months)', 'Psychedelic therapy', '4 integration sessions', 'Personalized accompaniment'],
