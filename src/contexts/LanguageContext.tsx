@@ -95,8 +95,9 @@ const translations = {
     'service.preparation.tools.list': ['Meditaciones', 'Técnicas de respiración', 'Ejercicios reflexivos', 'Prácticas de anclaje'],
     'service.preparation.closing': 'Este proceso te ayuda a acercarte a tu experiencia desde un lugar de consciencia, apertura, confianza y respeto por tu viaje personal.',
     
-    'service.integration.title': 'Círculos de Compartición e Integración Post-Experiencia',
+    'service.integration.title': 'Escucha y Acompañamiento Posterior a Experiencias',
     'service.integration.subtitle': 'Conectando Experiencias',
+    'service.integration.intro': 'Un espacio grupal en línea, guiado por una psicóloga especializada en estados amplificados de consciencia. El objetivo es escuchar diferentes experiencias, compartir reflexiones y explorar juntos el antes, durante y después de la experiencia con medicina o estados expandidos.',
     'service.integration.gain': 'Recibirás:',
     'service.integration.gain.list': ['Indicaciones reflexivas y de autoanálisis', 'Apoyo emocional y psicológico', 'Conexión grupal e ideas compartidas'],
     'service.integration.details': 'Detalles:',
