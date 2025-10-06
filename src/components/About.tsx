@@ -104,6 +104,15 @@ const About = () => {
               <p>
                 {t('about.p3')}
               </p>
+              
+              <div className="mt-8">
+                <h3 className="text-lg font-bold text-foreground mb-4">
+                  {t('about.education.title')}
+                </h3>
+                <p className="whitespace-pre-line">
+                  {t('about.education.text')}
+                </p>
+              </div>
             </div>
             
             <div className="mt-8 space-y-4">
