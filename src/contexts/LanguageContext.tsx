@@ -181,7 +181,7 @@ const translations = {
     // Services
     'services.section': 'SERVICES OFFERED',
     'services.title': 'Transformation Pathways',
-    'services.description': 'Each service is designed to accompany you through different stages of your healing and personal growth process, from preparation to complete integration.',
+    'services.description': 'Each service is designed to accompany you through different stages of your introspection and personal growth process, from preparation to complete integration.',
     'services.cta': 'Schedule Initial Consultation',
     'services.more': 'More Information',
     
