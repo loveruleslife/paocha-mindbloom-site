@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
-import paochamamaLogo from "@/assets/paochamama-logo.png";
+import paochamamaLogo from "@/assets/paochamama-logo-new.png";
 const About = () => {
   const {
     t
