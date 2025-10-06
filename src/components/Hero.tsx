@@ -39,7 +39,7 @@ const Hero = () => {
             {t('hero.subtitle')}
           </h2>
           
-          <div className="inline-block bg-white rounded-full px-8 py-4 mb-12">
+          <div className="inline-block bg-white/95 rounded-full px-8 py-4 mb-12 shadow-lg">
             <p className="text-lg font-medium leading-relaxed" style={{ color: '#00CED1' }}>
               {t('hero.description')}
             </p>
