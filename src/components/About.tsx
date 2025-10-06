@@ -75,18 +75,6 @@ const About = () => {
                   />
                 </div>
               </div>
-              
-              {/* Video Section 3 */}
-              <div className="mt-6 rounded-lg overflow-hidden border border-border/50">
-                <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                  <iframe
-                    src="https://www.youtube.com/embed/idhzBW2NOMo"
-                    className="absolute top-0 left-0 w-full h-full"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
-                </div>
-              </div>
             </div>
             
             {/* Floating elements */}
