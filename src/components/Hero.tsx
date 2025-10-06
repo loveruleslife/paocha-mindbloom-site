@@ -28,18 +28,18 @@ const Hero = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-6">
         <div className="mb-8">
           <div className="inline-block mb-4 px-4 py-2 bg-accent/10 rounded-full border border-accent/20">
-            <span className="text-accent font-medium text-sm tracking-wide">{t('hero.tagline')}</span>
+            <span className="text-accent font-semibold text-sm tracking-wide">{t('hero.tagline')}</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-tan-astoria text-primary mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-tan-astoria font-bold text-primary mb-6 leading-tight drop-shadow-sm">
             {t('hero.title')}
           </h1>
           
-          <h2 className="text-2xl md:text-3xl font-heading text-secondary mb-8 max-w-2xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-heading font-semibold text-foreground mb-8 max-w-2xl mx-auto drop-shadow-sm">
             {t('hero.subtitle')}
           </h2>
           
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
+          <p className="text-lg font-medium text-foreground/90 max-w-2xl mx-auto mb-12 leading-relaxed drop-shadow-sm">
             {t('hero.description')}
           </p>
         </div>
@@ -49,7 +49,7 @@ const Hero = () => {
         </div>
         
         {/* Trust indicators */}
-        <div className="mt-16 flex flex-wrap justify-center items-center gap-8 text-sm text-muted-foreground">
+        <div className="mt-16 flex flex-wrap justify-center items-center gap-8 text-sm font-semibold text-foreground/80 drop-shadow-sm">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-secondary rounded-full"></div>
             <span>{t('hero.credentials.licensed')}</span>
