@@ -119,42 +119,42 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-20 bg-background" id="services">
-      <div className="max-w-7xl mx-auto px-6">
+    <section className="py-12 md:py-20 bg-background" id="services">
+      <div className="max-w-7xl mx-auto px-4 md:px-6">
         {/* Header */}
-        <div className="text-center mb-16">
-          <span className="inline-block px-4 py-2 bg-accent/10 text-accent font-medium rounded-full text-sm mb-4">
+        <div className="text-center mb-8 md:mb-16 space-y-4">
+          <span className="inline-block px-3 py-1.5 md:px-4 md:py-2 bg-accent/10 text-accent font-medium rounded-full text-xs md:text-sm mb-2 md:mb-4">
             {t('services.section')}
           </span>
-          <h2 className="text-4xl md:text-5xl font-heading text-primary mb-6">
+          <h2 className="text-2xl md:text-4xl font-heading text-primary mb-4 md:mb-6 font-semibold px-4">
             {t('services.title')}
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-sm md:text-base lg:text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed px-4">
             {t('services.description')}
           </p>
         </div>
         
         {/* Services grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {services.map((service, index) => (
             <div 
               key={service.title}
-              className="group relative bg-card rounded-2xl p-8 earth-glow hover:scale-[1.02] transition-smooth border border-border/50"
+              className="group relative bg-card rounded-2xl p-4 md:p-8 earth-glow hover:scale-[1.02] transition-smooth border border-border/50"
             >
               {/* Background gradient */}
               <div className={`absolute inset-0 bg-gradient-to-br ${service.gradient} rounded-2xl opacity-50`} />
               
               {/* Content */}
               <div className="relative z-10">
-                <div className="mb-6">
-                  <div className={`inline-block w-12 h-12 bg-${service.color}/20 rounded-full mb-4 flex items-center justify-center`}>
-                    <div className={`w-6 h-6 bg-${service.color} rounded-full animate-glow`} />
+                <div className="mb-4 md:mb-6">
+                  <div className={`inline-block w-10 h-10 md:w-12 md:h-12 bg-${service.color}/20 rounded-full mb-3 md:mb-4 flex items-center justify-center`}>
+                    <div className={`w-5 h-5 md:w-6 md:h-6 bg-${service.color} rounded-full animate-glow`} />
                   </div>
                   
-                  <h3 className="text-2xl font-heading text-primary mb-2">
+                  <h3 className="text-xl md:text-2xl font-heading text-primary mb-2 font-semibold text-center md:text-left">
                     {service.title}
                   </h3>
-                  <p className={`text-${service.color} font-medium mb-4`}>
+                  <p className={`text-${service.color} font-medium mb-3 md:mb-4 text-sm md:text-base text-center md:text-left`}>
                     {service.subtitle.includes('Format:') ? (
                       <>
                         <span className="font-bold">Format:</span> {service.subtitle.replace('Format:', '').trim()}
@@ -165,18 +165,18 @@ const Services = () => {
                   </p>
                   {/* Intro text for Women's Circles and Mixed Circles */}
                   {service.intro && (
-                    <p className="text-foreground mb-4 leading-relaxed">
+                    <p className="text-foreground mb-3 md:mb-4 leading-relaxed text-sm md:text-base text-center md:text-left">
                       {service.intro}
                     </p>
                   )}
                   {/* Details list for Women's Circles and Mixed Circles */}
                   {service.detailsList && service.detailsList.length > 0 && (
-                    <div className="mt-4 mb-4">
-                      <p className="font-bold text-foreground mb-3">{service.details}</p>
+                    <div className="mt-3 md:mt-4 mb-3 md:mb-4">
+                      <p className="font-bold text-foreground mb-2 md:mb-3 text-sm md:text-base text-center md:text-left">{service.details}</p>
                       <ul className="space-y-2">
                         {service.detailsList.map((detail: string, idx: number) => (
-                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
-                            <span className={`text-${service.color} mt-1`}>•</span>
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-xs md:text-sm">
+                            <span className={`text-${service.color} mt-1 flex-shrink-0`}>•</span>
                             <span>{detail}</span>
                           </li>
                         ))}
@@ -185,12 +185,12 @@ const Services = () => {
                   )}
                   {/* Includes list for Therapy in Amplified States */}
                   {service.includesList && service.includesList.length > 0 && (
-                    <div className="mt-4 mb-4">
-                      <p className="font-bold text-foreground mb-3">{service.includes}</p>
+                    <div className="mt-3 md:mt-4 mb-3 md:mb-4">
+                      <p className="font-bold text-foreground mb-2 md:mb-3 text-sm md:text-base text-center md:text-left">{service.includes}</p>
                       <ul className="space-y-2">
                         {service.includesList.map((item: string, idx: number) => (
-                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
-                            <span className={`text-${service.color} mt-1`}>•</span>
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-xs md:text-sm">
+                            <span className={`text-${service.color} mt-1 flex-shrink-0`}>•</span>
                             <span>{item}</span>
                           </li>
                         ))}
@@ -199,24 +199,24 @@ const Services = () => {
                   )}
                   {/* Warning for Therapy in Amplified States */}
                   {service.warning && (
-                    <p className="text-foreground text-sm mt-4 leading-relaxed">
+                    <p className="text-foreground text-xs md:text-sm mt-3 md:mt-4 leading-relaxed text-center md:text-left">
                       {service.warning}
                     </p>
                   )}
                   {service.description && (
-                    <p className="text-muted-foreground mb-6 leading-relaxed">
+                    <p className="text-muted-foreground mb-4 md:mb-6 leading-relaxed text-sm md:text-base text-center md:text-left">
                       {service.description}
                     </p>
                   )}
                   
                   {/* Gain list (You'll receive) for therapy and integration services */}
                   {service.gainList && service.gainList.length > 0 && (
-                    <div className="mt-4">
-                      <p className="font-bold text-foreground mb-3">{service.gain}</p>
+                    <div className="mt-3 md:mt-4">
+                      <p className="font-bold text-foreground mb-2 md:mb-3 text-sm md:text-base text-center md:text-left">{service.gain}</p>
                       <ul className="space-y-2">
                         {service.gainList.map((item: string, idx: number) => (
-                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
-                            <span className={`text-${service.color} mt-1`}>•</span>
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-xs md:text-sm">
+                            <span className={`text-${service.color} mt-1 flex-shrink-0`}>•</span>
                             <span>{item}</span>
                           </li>
                         ))}
@@ -226,18 +226,18 @@ const Services = () => {
                   
                   {/* Options list for Retreats */}
                   {service.optionsList && service.optionsList.length > 0 && (
-                    <div className="mt-4">
-                      <p className="font-bold text-foreground mb-3">{service.options}</p>
+                    <div className="mt-3 md:mt-4">
+                      <p className="font-bold text-foreground mb-2 md:mb-3 text-sm md:text-base text-center md:text-left">{service.options}</p>
                       <ul className="space-y-2">
                         {service.optionsList.map((item: string, idx: number) => (
-                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
-                            <span className={`text-${service.color} mt-1`}>•</span>
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-xs md:text-sm">
+                            <span className={`text-${service.color} mt-1 flex-shrink-0`}>•</span>
                             <span>{item}</span>
                           </li>
                         ))}
                       </ul>
                       {service.closing && (
-                        <p className="text-foreground mt-4 leading-relaxed">
+                        <p className="text-foreground mt-3 md:mt-4 leading-relaxed text-sm md:text-base text-center md:text-left">
                           {service.closing}
                         </p>
                       )}
@@ -246,18 +246,18 @@ const Services = () => {
                   
                   {/* Tools list for Preparation */}
                   {service.toolsList && service.toolsList.length > 0 && (
-                    <div className="mt-4">
-                      <p className="font-bold text-foreground mb-3">{service.tools}</p>
+                    <div className="mt-3 md:mt-4">
+                      <p className="font-bold text-foreground mb-2 md:mb-3 text-sm md:text-base text-center md:text-left">{service.tools}</p>
                       <ul className="space-y-2">
                         {service.toolsList.map((item: string, idx: number) => (
-                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
-                            <span className={`text-${service.color} mt-1`}>•</span>
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-xs md:text-sm">
+                            <span className={`text-${service.color} mt-1 flex-shrink-0`}>•</span>
                             <span>{item}</span>
                           </li>
                         ))}
                       </ul>
                       {service.closing && (
-                        <p className="text-foreground mt-4 leading-relaxed">
+                        <p className="text-foreground mt-3 md:mt-4 leading-relaxed text-sm md:text-base text-center md:text-left">
                           {service.closing}
                         </p>
                       )}
@@ -266,12 +266,12 @@ const Services = () => {
                   
                   {/* Approach list for Individual Integration Therapy */}
                   {service.approachList && service.approachList.length > 0 && (
-                    <div className="mt-4">
-                      <p className="font-bold text-foreground mb-3">{service.approach}</p>
+                    <div className="mt-3 md:mt-4">
+                      <p className="font-bold text-foreground mb-2 md:mb-3 text-sm md:text-base text-center md:text-left">{service.approach}</p>
                       <ul className="space-y-2">
                         {service.approachList.map((item: string, idx: number) => (
-                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
-                            <span className={`text-${service.color} mt-1`}>•</span>
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-xs md:text-sm">
+                            <span className={`text-${service.color} mt-1 flex-shrink-0`}>•</span>
                             <span>{item}</span>
                           </li>
                         ))}
@@ -281,12 +281,12 @@ const Services = () => {
                   
                   {/* Features list for therapy service */}
                   {service.features && service.features.length > 0 && index === 0 && (
-                    <div className="mt-4">
-                      <p className="font-bold text-foreground mb-3">{t('service.therapy.gain')}</p>
+                    <div className="mt-3 md:mt-4">
+                      <p className="font-bold text-foreground mb-2 md:mb-3 text-sm md:text-base text-center md:text-left">{t('service.therapy.gain')}</p>
                       <ul className="space-y-2">
                         {service.features.map((feature, idx) => (
-                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-sm">
-                            <span className={`text-${service.color} mt-1`}>•</span>
+                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-xs md:text-sm">
+                            <span className={`text-${service.color} mt-1 flex-shrink-0`}>•</span>
                             <span>{feature}</span>
                           </li>
                         ))}
