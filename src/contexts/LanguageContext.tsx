@@ -53,7 +53,7 @@ const translations = {
     'services.more': 'Más Información',
     
     // Service items
-    'service.therapy.title': 'Psicoterapia Individual Online',
+    'service.therapy.title': 'Psicoterapia Individual en Línea',
     'service.therapy.subtitle': 'Formato: Sesiones 1-1 por Zoom',
     'service.therapy.description': 'Sesiones personalizadas con una psicóloga entrenada en múltiples marcos terapéuticos y psicológicos para acompañarte en tu proceso de introspección y autoconocimiento.',
     'service.therapy.gain': 'Obtendrás:',
