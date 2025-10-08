@@ -48,7 +48,7 @@ const translations = {
     // Services
     'services.section': 'SERVICIOS OFRECIDOS',
     'services.title': 'Caminos de Transformación',
-    'services.description': 'Cada servicio está diseñado para acompañarte en diferentes etapas de tu proceso de sanación y crecimiento personal, desde la preparación hasta la integración completa.',
+    'services.description': 'Cada servicio está diseñado para acompañarte en diferentes etapas de tu proceso de introspección y crecimiento personal, desde la preparación hasta la integración completa.',
     'services.cta': 'Agendar Consulta Inicial',
     'services.more': 'Más Información',
     
