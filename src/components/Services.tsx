@@ -15,7 +15,7 @@ const Services = () => {
         'service.accompaniment.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión por persona', 'Rango de edad: 21–80 años'],
         'service.ceremonies.includes.list': ['Sesiones de preparación individuales', 'Sesiones terapéuticas con medicina (si es apropiado)', 'Terapia de integración posterior a la sesión'],
         'service.ceremonies.features': ['12 sesiones previas (3 meses)', 'Terapia con psicodélicos', '4 sesiones de integración', 'Acompañamiento personalizado'],
-        'service.retreats.options.list': [],
+        'service.retreats.features': ['Un espacio seguro para el autoanálisis', 'Herramientas duraderas para la introspección', 'Acompañamiento personalizado', 'Relajación y calma interior', 'Nuevas perspectivas sobre tu proceso personal', 'Apoyo y compañerismo'],
         'service.preparation.tools.list': ['Meditaciones', 'Técnicas de respiración', 'Ejercicios reflexivos', 'Prácticas de anclaje'],
         'service.integration.gain.list': ['Indicaciones reflexivas y de autoanálisis', 'Apoyo emocional y psicológico', 'Conexión grupal e ideas compartidas'],
         'service.integration.details.list': ['Duración: 2 horas', 'Idioma: Inglés o Español', 'Precio: $25 USD por persona'],
@@ -29,7 +29,7 @@ const Services = () => {
         'service.accompaniment.details.list': ['Frequency: Once per week (2 hours each)', 'Language: English or Spanish', 'Price: $25 USD per session per person', 'Age range: 21–80 years'],
         'service.ceremonies.includes.list': ['One-on-one preparation sessions', 'Therapeutic sessions with medicine (if appropriate)', 'Post-session integration therapy'],
         'service.ceremonies.features': ['12 prior sessions (3 months)', 'Psychedelic therapy', '4 integration sessions', 'Personalized accompaniment'],
-        'service.retreats.options.list': [],
+        'service.retreats.features': ['A safe space for self-analysis', 'Lasting tools for introspection', 'Personalized accompaniment', 'Relaxation and inner calm', 'New perspectives on your personal process', 'Support and companionship'],
         'service.preparation.tools.list': ['Meditations', 'Breathing techniques', 'Reflective Exercises', 'Grounding Practices'],
         'service.integration.gain.list': ['Reflective and self-analysis prompts', 'Emotional and psychological support', 'Group connection and shared insights'],
         'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish', 'Price: $25 USD per person'],
@@ -81,8 +81,9 @@ const Services = () => {
     {
       title: t('service.retreats.title'),
       subtitle: t('service.retreats.subtitle'),
-      options: t('service.retreats.options'),
-      optionsList: getFeatures('service.retreats.options.list'),
+      description: t('service.retreats.description'),
+      gain: t('service.retreats.gain'),
+      features: getFeatures('service.retreats.features'),
       closing: t('service.retreats.closing'),
       color: "primary",
       gradient: "from-primary/20 to-primary/5"
@@ -204,7 +205,7 @@ const Services = () => {
                     </p>
                   )}
                   {service.description && (
-                    <p className="text-muted-foreground mb-4 md:mb-6 leading-relaxed text-sm md:text-base text-center md:text-left">
+                    <p className="text-muted-foreground mb-4 md:mb-6 leading-relaxed text-sm md:text-base text-center md:text-left whitespace-pre-line">
                       {service.description}
                     </p>
                   )}
@@ -224,23 +225,9 @@ const Services = () => {
                     </div>
                   )}
                   
-                  {/* Options list for Retreats */}
-                  {service.optionsList && service.optionsList.length > 0 && (
-                    <div className="mt-3 md:mt-4">
-                      <p className="font-bold text-foreground mb-2 md:mb-3 text-sm md:text-base text-center md:text-left">{service.options}</p>
-                      <ul className="space-y-2">
-                        {service.optionsList.map((item: string, idx: number) => (
-                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-xs md:text-sm">
-                            <span className={`text-${service.color} mt-1 flex-shrink-0`}>•</span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
                   
                   {/* Closing text for Retreats and Preparation */}
-                  {service.closing && !service.toolsList && (
+                  {service.closing && !service.toolsList && !service.features && (
                     <p className="text-foreground mt-3 md:mt-4 leading-relaxed text-sm md:text-base text-center md:text-left whitespace-pre-line">
                       {service.closing}
                     </p>
@@ -281,10 +268,12 @@ const Services = () => {
                     </div>
                   )}
                   
-                  {/* Features list for therapy service */}
-                  {service.features && service.features.length > 0 && index === 0 && (
+                  {/* Features list for therapy service and retreats */}
+                  {service.features && service.features.length > 0 && (index === 0 || service.gain) && (
                     <div className="mt-3 md:mt-4">
-                      <p className="font-bold text-foreground mb-2 md:mb-3 text-sm md:text-base text-center md:text-left">{t('service.therapy.gain')}</p>
+                      <p className="font-bold text-foreground mb-2 md:mb-3 text-sm md:text-base text-center md:text-left">
+                        {index === 0 ? t('service.therapy.gain') : service.gain}
+                      </p>
                       <ul className="space-y-2">
                         {service.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start gap-2 text-muted-foreground text-xs md:text-sm">
@@ -293,6 +282,11 @@ const Services = () => {
                           </li>
                         ))}
                       </ul>
+                      {service.closing && service.gain && (
+                        <p className="text-foreground mt-3 md:mt-4 leading-relaxed text-sm md:text-base text-center md:text-left whitespace-pre-line">
+                          {service.closing}
+                        </p>
+                      )}
                     </div>
                   )}
                 </div>
