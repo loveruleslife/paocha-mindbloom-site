@@ -236,12 +236,14 @@ const Services = () => {
                           </li>
                         ))}
                       </ul>
-                      {service.closing && (
-                        <p className="text-foreground mt-3 md:mt-4 leading-relaxed text-sm md:text-base text-center md:text-left">
-                          {service.closing}
-                        </p>
-                      )}
                     </div>
+                  )}
+                  
+                  {/* Closing text for Retreats and Preparation */}
+                  {service.closing && !service.toolsList && (
+                    <p className="text-foreground mt-3 md:mt-4 leading-relaxed text-sm md:text-base text-center md:text-left whitespace-pre-line">
+                      {service.closing}
+                    </p>
                   )}
                   
                   {/* Tools list for Preparation */}

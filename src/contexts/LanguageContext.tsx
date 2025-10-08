@@ -86,7 +86,7 @@ const translations = {
     'service.retreats.subtitle': 'Conexión Individual y Grupal',
     'service.retreats.options': '',
     'service.retreats.options.list': [],
-    'service.retreats.closing': '',
+    'service.retreats.closing': 'Los Retiros de Introspección son espacios dedicados al reconocimiento y crecimiento personal de cada individuo.\nA través de la psicología, la meditación, el autoanálisis, las respiraciones guiadas y otras herramientas terapéuticas, podrás acceder a niveles más profundos de autoconocimiento y bienestar.',
     
     'service.preparation.title': 'Preparación para Sesiones Terapéuticas en Estados Amplificados',
     'service.preparation.subtitle': 'Preparación Especializada',
@@ -220,7 +220,7 @@ const translations = {
     'service.retreats.subtitle': 'Individual and Group Connection',
     'service.retreats.options': '',
     'service.retreats.options.list': [],
-    'service.retreats.closing': '',
+    'service.retreats.closing': 'Introspection Retreats are dedicated spaces for the recognition and personal growth of each individual.\nThrough psychology, meditation, self-analysis, guided breathing, and other therapeutic tools, you can access deeper levels of self-knowledge and well-being.',
     
     'service.preparation.title': 'Preparation for Therapeutic Sessions in Amplified States',
     'service.preparation.subtitle': 'Specialized Preparation',
