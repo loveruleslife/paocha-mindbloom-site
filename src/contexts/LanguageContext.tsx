@@ -174,8 +174,8 @@ const translations = {
     'about.education.title': 'Education & Experience',
     'about.education.text': 'I hold a Psychology degree from ITESO University (Jesuit institution, Guadalajara, Mexico) and received the Pedro Arrupe Award for my project "Transforming Realities from the Culture." My journey includes extensive work in therapy, neonatal bonding, inner-child healing, group facilitation, and ancestral ceremonies.\n\nLanguages: Spanish (native), English (fluent)',
     'about.specialties.transpersonal': 'Transpersonal Psychology',
-    'about.specialties.psychedelic': 'Psychedelic Therapy',
-    'about.specialties.ceremonies': 'Sacred Ceremonies',
+    'about.specialties.psychedelic': 'Therapies in Amplified States of Consciousness',
+    'about.specialties.ceremonies': 'Ceremonies of Introspection',
     'about.specialties.integration': 'Holistic Integration',
     'about.cta': 'Learn About My Approach',
     
