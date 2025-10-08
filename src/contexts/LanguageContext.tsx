@@ -252,7 +252,7 @@ const translations = {
     'service.individual.subtitle': 'Reflection Time',
     'service.individual.description': 'Individual psychological accompaniment to integrate and understand your experiences in amplified states of consciousness.\nFrom transpersonal psychology, I provide you with practical and lasting tools such as mindfulness, creative writing, expressive painting, and guided reflection, which you can also apply in your daily life to deepen your personal process and strengthen your emotional well-being.',
     'service.individual.gain': 'During the sessions you will gain:',
-    'service.individual.features': ['Clarity about your experience', 'A safe and confidential space', 'Active listening and empathetic accompaniment', 'Solid tools for integration', 'Expert guidance in consciousness processes', 'Greater depth in your personal process'],
+    'service.individual.features': ['Clarity about your experience', 'A safe and confidential space', 'Active listening and empathetic accompaniment', 'Solid tools for integration', 'Greater depth in your personal process'],
     'service.individual.closing': 'Aimed at people who have experienced therapeutic or shamanic sessions in amplified states of consciousness and seek a more integrated and conscious view of their experience.',
     'service.individual.approach': '',
     'service.individual.approach.list': [],
