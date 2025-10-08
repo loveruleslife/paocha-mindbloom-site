@@ -112,7 +112,7 @@ const translations = {
     'service.individual.subtitle': 'Tiempo de Reflexión',
     'service.individual.description': 'Acompañamiento psicológico individual para integrar y comprender tus experiencias en estados amplificados de consciencia.\nDesde la psicología transpersonal, te brindo herramientas prácticas y duraderas como atención plena, escritura creativa, pintura expresiva y reflexión guiada, que podrás aplicar también en tu vida cotidiana para profundizar en tu proceso personal y fortalecer tu bienestar emocional.',
     'service.individual.gain': 'Durante las sesiones obtendrás:',
-    'service.individual.features': ['Claridad sobre tu experiencia', 'Un espacio seguro y confidencial', 'Escucha activa y acompañamiento empático', 'Herramientas sólidas para la integración', 'Guía experta en procesos de consciencia', 'Mayor profundidad en tu proceso personal'],
+    'service.individual.features': ['Claridad sobre tu experiencia', 'Un espacio seguro y confidencial', 'Escucha activa y acompañamiento empático', 'Herramientas sólidas para la integración', 'Mayor profundidad en tu proceso personal'],
     'service.individual.closing': 'Dirigido a personas que han vivido sesiones terapéuticas o chamánicas en estados amplificados de consciencia y buscan una visión más integrada y consciente de su experiencia.',
     'service.individual.approach': '',
     'service.individual.approach.list': [],
