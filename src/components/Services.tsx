@@ -20,7 +20,7 @@ const Services = () => {
         'service.integration.gain.list': ['Indicaciones reflexivas y de autoanálisis', 'Apoyo emocional y psicológico', 'Conexión grupal e ideas compartidas'],
         'service.integration.details.list': ['Duración: 2 horas', 'Idioma: Inglés o Español', 'Precio: $25 USD por persona'],
         'service.individual.approach.list': [],
-        'service.individual.features': ['Claridad sobre tu experiencia', 'Un espacio seguro y confidencial', 'Escucha activa y acompañamiento empático', 'Herramientas sólidas para la integración', 'Guía experta en procesos de consciencia', 'Mayor profundidad en tu proceso personal']
+        'service.individual.features': ['Claridad sobre tu experiencia', 'Un espacio seguro y confidencial', 'Escucha activa y acompañamiento empático', 'Herramientas sólidas para la integración', 'Mayor profundidad en tu proceso personal']
       },
       en: {
         'service.therapy.features': ['Self-awareness techniques', 'A deeper connection with yourself', 'Reflective and self-inquiry questions', 'Active listening and empathetic support', 'Writing and journaling exercises'],
