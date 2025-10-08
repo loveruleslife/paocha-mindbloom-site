@@ -35,7 +35,7 @@ const Services = () => {
         'service.integration.gain.list': ['Reflective and self-analysis prompts', 'Emotional and psychological support', 'Group connection and shared insights'],
         'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish', 'Price: $25 USD per person'],
         'service.individual.approach.list': [],
-        'service.individual.features': ['Clarity about your experience', 'A safe and confidential space', 'Active listening and empathetic accompaniment', 'Solid tools for integration', 'Expert guidance in consciousness processes', 'Greater depth in your personal process']
+        'service.individual.features': ['Clarity about your experience', 'A safe and confidential space', 'Active listening and empathetic accompaniment', 'Solid tools for integration', 'Greater depth in your personal process']
       }
     };
     return translations[language][key as keyof typeof translations[typeof language]] || [];
