@@ -87,7 +87,7 @@ const translations = {
     'service.retreats.description': 'Los Retiros de Introspección son espacios dedicados al reconocimiento y crecimiento personal de cada individuo.\nA través de la psicología, la meditación, el autoanálisis, las respiraciones guiadas y otras herramientas terapéuticas, podrás acceder a niveles más profundos de autoconocimiento y bienestar.',
     'service.retreats.gain': 'Durante el retiro obtendrás:',
     'service.retreats.features': ['Un espacio seguro para el autoanálisis', 'Herramientas duraderas para la introspección', 'Acompañamiento personalizado', 'Relajación y calma interior', 'Nuevas perspectivas sobre tu proceso personal', 'Apoyo y compañerismo'],
-    'service.retreats.closing': 'Contamos con retiros grupales e individuales, diseñados para acompañarte en tu camino hacia la expansión de la consciencia y el equilibrio interior.',
+    'service.retreats.closing': 'Contamos con retiros grupales e individuales, diseñados para acompañarte en tu camino hacia la expansión de la consciencia y el equilibrio interior. Los retiros pueden adaptarse para satisfacer tus necesidades individuales, ofreciendo un entorno sagrado y seguro para la reconexión y la transformación.',
     'service.retreats.options': '',
     'service.retreats.options.list': [],
     
@@ -224,7 +224,7 @@ const translations = {
     'service.retreats.description': 'Introspection Retreats are dedicated spaces for the recognition and personal growth of each individual.\nThrough psychology, meditation, self-analysis, guided breathing, and other therapeutic tools, you can access deeper levels of self-knowledge and well-being.',
     'service.retreats.gain': 'During the retreat you will gain:',
     'service.retreats.features': ['A safe space for self-analysis', 'Lasting tools for introspection', 'Personalized accompaniment', 'Relaxation and inner calm', 'New perspectives on your personal process', 'Support and companionship'],
-    'service.retreats.closing': 'We offer group and individual retreats, designed to accompany you on your path toward consciousness expansion and inner balance.',
+    'service.retreats.closing': 'We offer group and individual retreats, designed to accompany you on your path toward consciousness expansion and inner balance. Retreats can be adapted to meet your individual needs, offering a sacred and safe environment for reconnection and transformation.',
     'service.retreats.options': '',
     'service.retreats.options.list': [],
     
