@@ -84,9 +84,9 @@ const translations = {
     
     'service.retreats.title': 'Retiros',
     'service.retreats.subtitle': 'Conexión Individual y Grupal',
-    'service.retreats.options': 'Opciones:',
-    'service.retreats.options.list': ['Retiros individuales o grupales', 'Los retiros pueden modificarse para satisfacer tus necesidades individuales'],
-    'service.retreats.closing': 'Cada retiro ofrece un entorno sagrado y seguro para la reconexión y la renovación.',
+    'service.retreats.options': '',
+    'service.retreats.options.list': [],
+    'service.retreats.closing': '',
     
     'service.preparation.title': 'Preparación para Sesiones Terapéuticas en Estados Amplificados',
     'service.preparation.subtitle': 'Preparación Especializada',
@@ -218,9 +218,9 @@ const translations = {
     
     'service.retreats.title': 'Retreats',
     'service.retreats.subtitle': 'Individual and Group Connection',
-    'service.retreats.options': 'Options:',
-    'service.retreats.options.list': ['Individual or group retreats', 'Retreats can be modified to meet your individual needs'],
-    'service.retreats.closing': 'Each retreat offers a sacred, safe environment for reconnection and renewal.',
+    'service.retreats.options': '',
+    'service.retreats.options.list': [],
+    'service.retreats.closing': '',
     
     'service.preparation.title': 'Preparation for Therapeutic Sessions in Amplified States',
     'service.preparation.subtitle': 'Specialized Preparation',
