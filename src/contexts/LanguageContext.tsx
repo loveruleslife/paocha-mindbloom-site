@@ -110,8 +110,8 @@ const translations = {
     
     'service.individual.title': 'Terapia de Integración Individual',
     'service.individual.subtitle': 'Tiempo de Reflexión',
-    'service.individual.approach': 'Enfoque:',
-    'service.individual.approach.list': ['Utiliza la escritura, el arte y el diálogo reflexivo para construir consciencia emocional y equilibrio interior.', 'Ideal para quienes han participado en ceremonias terapéuticas o chamánicas y buscan una comprensión más profunda e integrada.'],
+    'service.individual.approach': '',
+    'service.individual.approach.list': [],
     'service.individual.description': '',
     
     // Contact
@@ -247,8 +247,8 @@ const translations = {
     
     'service.individual.title': 'Individual Integration Therapy',
     'service.individual.subtitle': 'Reflection Time',
-    'service.individual.approach': 'Approach:',
-    'service.individual.approach.list': ['Uses writing, art, and reflective dialogue to build emotional awareness and inner balance.', 'Ideal for those who have participated in therapeutic or shamanic ceremonies and seek a deeper, integrated understanding.'],
+    'service.individual.approach': '',
+    'service.individual.approach.list': [],
     'service.individual.description': '',
     
     // Contact
