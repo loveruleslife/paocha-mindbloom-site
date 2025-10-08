@@ -19,7 +19,8 @@ const Services = () => {
         'service.preparation.tools.list': ['Meditaciones', 'Técnicas de respiración', 'Ejercicios reflexivos', 'Prácticas de anclaje'],
         'service.integration.gain.list': ['Indicaciones reflexivas y de autoanálisis', 'Apoyo emocional y psicológico', 'Conexión grupal e ideas compartidas'],
         'service.integration.details.list': ['Duración: 2 horas', 'Idioma: Inglés o Español', 'Precio: $25 USD por persona'],
-        'service.individual.approach.list': []
+        'service.individual.approach.list': [],
+        'service.individual.features': ['Claridad sobre tu experiencia', 'Un espacio seguro y confidencial', 'Escucha activa y acompañamiento empático', 'Herramientas sólidas para la integración', 'Guía experta en procesos de consciencia', 'Mayor profundidad en tu proceso personal']
       },
       en: {
         'service.therapy.features': ['Self-awareness techniques', 'A deeper connection with yourself', 'Reflective and self-inquiry questions', 'Active listening and empathetic support', 'Writing and journaling exercises'],
@@ -33,7 +34,8 @@ const Services = () => {
         'service.preparation.tools.list': ['Meditations', 'Breathing techniques', 'Reflective Exercises', 'Grounding Practices'],
         'service.integration.gain.list': ['Reflective and self-analysis prompts', 'Emotional and psychological support', 'Group connection and shared insights'],
         'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish', 'Price: $25 USD per person'],
-        'service.individual.approach.list': []
+        'service.individual.approach.list': [],
+        'service.individual.features': ['Clarity about your experience', 'A safe and confidential space', 'Active listening and empathetic accompaniment', 'Solid tools for integration', 'Expert guidance in consciousness processes', 'Greater depth in your personal process']
       }
     };
     return translations[language][key as keyof typeof translations[typeof language]] || [];
@@ -112,8 +114,10 @@ const Services = () => {
     {
       title: t('service.individual.title'),
       subtitle: t('service.individual.subtitle'),
-      approach: t('service.individual.approach'),
-      approachList: getFeatures('service.individual.approach.list'),
+      description: t('service.individual.description'),
+      gain: t('service.individual.gain'),
+      features: getFeatures('service.individual.features'),
+      closing: t('service.individual.closing'),
       color: "accent",
       gradient: "from-accent/20 to-accent/5"
     }
@@ -253,20 +257,6 @@ const Services = () => {
                     </div>
                   )}
                   
-                  {/* Approach list for Individual Integration Therapy */}
-                  {service.approachList && service.approachList.length > 0 && (
-                    <div className="mt-3 md:mt-4">
-                      <p className="font-bold text-foreground mb-2 md:mb-3 text-sm md:text-base text-center md:text-left">{service.approach}</p>
-                      <ul className="space-y-2">
-                        {service.approachList.map((item: string, idx: number) => (
-                          <li key={idx} className="flex items-start gap-2 text-muted-foreground text-xs md:text-sm">
-                            <span className={`text-${service.color} mt-1 flex-shrink-0`}>•</span>
-                            <span>{item}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
                   
                   {/* Features list for therapy service and retreats */}
                   {service.features && service.features.length > 0 && (index === 0 || service.gain) && (
