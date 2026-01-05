@@ -44,7 +44,7 @@ const translations = {
     'about.specialties.ceremonies': 'Ceremonias de Introspección',
     'about.specialties.integration': 'Integración Holística',
     'about.cta': 'Conoce Mi Enfoque',
-    'about.video3.description': '"En esta entrevista, reflexiono sobre experiencias personales que formaron a la persona que soy hoy y por qué quiero compartir este conocimiento con otros."',
+    'about.video3.description': '"En esta entrevista, reflexiono sobre mis experiencias personales que me formaron como la persona que soy hoy y por qué quiero compartir este conocimiento con otros."',
     
     // Services
     'services.section': 'SERVICIOS OFRECIDOS',
