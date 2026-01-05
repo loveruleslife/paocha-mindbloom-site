@@ -44,6 +44,7 @@ const translations = {
     'about.specialties.ceremonies': 'Ceremonias de Introspección',
     'about.specialties.integration': 'Integración Holística',
     'about.cta': 'Conoce Mi Enfoque',
+    'about.video3.description': 'En esta entrevista, reflexiono sobre experiencias personales que formaron a la persona que soy hoy y por qué quiero compartir este conocimiento con otros.',
     
     // Services
     'services.section': 'SERVICIOS OFRECIDOS',
@@ -184,6 +185,7 @@ const translations = {
     'about.specialties.ceremonies': 'Ceremonies of Introspection',
     'about.specialties.integration': 'Holistic Integration',
     'about.cta': 'Learn About My Approach',
+    'about.video3.description': 'In this interview, I reflect on personal experiences that shaped the person I am today and why I want to share this knowledge with others.',
     
     // Services
     'services.section': 'SERVICES OFFERED',

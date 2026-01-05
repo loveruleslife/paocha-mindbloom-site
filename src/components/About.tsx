@@ -128,6 +128,9 @@ const About = () => {
                   />
                 </div>
               </div>
+              <p className="mt-3 text-muted-foreground text-sm md:text-base text-center italic">
+                {t('about.video3.description')}
+              </p>
             </div>
             
             {/* Floating elements */}
