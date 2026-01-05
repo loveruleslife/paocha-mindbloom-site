@@ -63,7 +63,7 @@ const translations = {
     'service.introspection.subtitle': 'Espacios de Crecimiento Femenino',
     'service.introspection.intro': 'Encuentros semanales enfocados en el autoconocimiento, la reflexión y el crecimiento compartido. Cada sesión explora un nuevo tema para fomentar la perspicacia y la resiliencia emocional.',
     'service.introspection.details': 'Detalles:',
-    'service.introspection.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión', 'Rango de edad: Mujeres de 21–80 años'],
+    'service.introspection.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Rango de edad: Mujeres de 21–80 años'],
     'service.introspection.description': '',
     'service.introspection.features': ['26 semanas de duración', 'Sesiones de 3 horas', 'Grupos en español e inglés', 'Solo mujeres 21-70 años', 'Cupo limitado', '$25 USD por sesión'],
     
@@ -71,7 +71,7 @@ const translations = {
     'service.accompaniment.subtitle': 'Espacios de Crecimiento Conjunto',
     'service.accompaniment.intro': 'Espacios inclusivos para hombres y mujeres para explorar la consciencia personal y colectiva. Cada semana introduce temas reflexivos que fortalecen la convivencia y la comprensión mutua.',
     'service.accompaniment.details': 'Detalles:',
-    'service.accompaniment.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Precio: $25 USD por sesión por persona', 'Rango de edad: 21–80 años'],
+    'service.accompaniment.details.list': ['Frecuencia: Una vez por semana (2 horas cada una)', 'Idioma: Inglés o Español', 'Rango de edad: 21–80 años'],
     'service.accompaniment.description': '',
     
     'service.ceremonies.title': 'Terapia en Estados Amplificados de Consciencia',
@@ -203,7 +203,7 @@ const translations = {
     'service.introspection.subtitle': 'Feminine Growth Spaces',
     'service.introspection.intro': 'Weekly gatherings focused on self-knowledge, reflection, and shared growth. Each session explores a new theme to foster insight and emotional resilience.',
     'service.introspection.details': 'Details:',
-    'service.introspection.details.list': ['Frequency: Once per week (2 hours each)', 'Language: English or Spanish', 'Price: $25 USD per session', 'Age range: Women 21–80 years'],
+    'service.introspection.details.list': ['Frequency: Once per week (2 hours each)', 'Language: English or Spanish', 'Age range: Women 21–80 years'],
     'service.introspection.description': '',
     'service.introspection.features': ['26-week duration', '3-hour sessions', 'Spanish and English groups', 'Women only 21-70 years', 'Limited capacity', '$25 USD per session'],
     
@@ -211,7 +211,7 @@ const translations = {
     'service.accompaniment.subtitle': 'Joint Growth Spaces',
     'service.accompaniment.intro': 'Inclusive spaces for both men and women to explore personal and collective awareness. Each week introduces reflective themes that strengthen coexistence and mutual understanding.',
     'service.accompaniment.details': 'Details:',
-    'service.accompaniment.details.list': ['Frequency: Once per week (2 hours each)', 'Language: English or Spanish', 'Price: $25 USD per session per person', 'Age range: 21–80 years'],
+    'service.accompaniment.details.list': ['Frequency: Once per week (2 hours each)', 'Language: English or Spanish', 'Age range: 21–80 years'],
     'service.accompaniment.description': '',
     
     'service.ceremonies.title': 'Therapy in Amplified States of Consciousness',
