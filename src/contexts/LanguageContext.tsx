@@ -131,7 +131,7 @@ const translations = {
     'contact.trust': 'Tu información está protegida bajo confidencialidad profesional',
     
     // Footer
-    'footer.description': 'Acompañamiento terapéutico especializado en expansión de consciencia y transformación personal a través de estados no ordinarios.',
+    'footer.description': 'Acompañamiento terapéutico especializado en expansión de consciencia y transformación personal.',
     'footer.services.title': 'Servicios',
     'footer.services.individual': 'Terapia Individual',
     'footer.services.introspection': 'Introspección Guiada',
@@ -271,7 +271,7 @@ const translations = {
     'contact.trust': 'Your information is protected under professional confidentiality',
     
     // Footer
-    'footer.description': 'Specialized therapeutic accompaniment in consciousness expansion and personal transformation through non-ordinary states.',
+    'footer.description': 'Specialized therapeutic accompaniment in consciousness expansion and personal transformation.',
     'footer.services.title': 'Services',
     'footer.services.individual': 'Individual Therapy',
     'footer.services.introspection': 'Guided Introspection',
