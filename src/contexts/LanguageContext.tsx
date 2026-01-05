@@ -105,7 +105,7 @@ const translations = {
     'service.integration.gain': 'Recibirás:',
     'service.integration.gain.list': ['Indicaciones reflexivas y de autoanálisis', 'Apoyo emocional y psicológico', 'Conexión grupal e ideas compartidas'],
     'service.integration.details': 'Detalles:',
-    'service.integration.details.list': ['Duración: 2 horas', 'Idioma: Inglés o Español', 'Precio: $25 USD por persona'],
+    'service.integration.details.list': ['Duración: 2 horas', 'Idioma: Inglés o Español'],
     'service.integration.description': '',
     'service.integration.features': [],
     
@@ -246,7 +246,7 @@ const translations = {
     'service.integration.gain': "You'll receive:",
     'service.integration.gain.list': ['Reflective and self-analysis prompts', 'Emotional and psychological support', 'Group connection and shared insights'],
     'service.integration.details': 'Details:',
-    'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish', 'Price: $25 USD per person'],
+    'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish'],
     'service.integration.description': '',
     'service.integration.features': [],
     
