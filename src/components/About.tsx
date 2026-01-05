@@ -116,6 +116,18 @@ const About = () => {
                   />
                 </div>
               </div>
+              
+              {/* Video Section 3 */}
+              <div className="mt-4 md:mt-6 rounded-lg overflow-hidden border border-border/50">
+                <div className="aspect-video w-full">
+                  <iframe
+                    src="https://www.youtube.com/embed/MQWYSqDF524"
+                    className="w-full h-full"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+              </div>
             </div>
             
             {/* Floating elements */}
