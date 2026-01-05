@@ -18,7 +18,7 @@ const Services = () => {
         'service.retreats.features': ['Un espacio seguro para el autoanálisis', 'Herramientas duraderas para la introspección', 'Acompañamiento personalizado', 'Relajación y calma interior', 'Nuevas perspectivas sobre tu proceso personal', 'Apoyo y compañerismo'],
         'service.preparation.tools.list': ['Meditaciones', 'Técnicas de respiración', 'Ejercicios reflexivos', 'Prácticas de anclaje'],
         'service.integration.gain.list': ['Indicaciones reflexivas y de autoanálisis', 'Apoyo emocional y psicológico', 'Conexión grupal e ideas compartidas'],
-        'service.integration.details.list': ['Duración: 2 horas', 'Idioma: Inglés o Español', 'Precio: $25 USD por persona'],
+        'service.integration.details.list': ['Duración: 2 horas', 'Idioma: Inglés o Español'],
         'service.individual.approach.list': [],
         'service.individual.features': ['Claridad sobre tu experiencia', 'Un espacio seguro y confidencial', 'Escucha activa y acompañamiento empático', 'Herramientas sólidas para la integración', 'Mayor profundidad en tu proceso personal']
       },
@@ -33,7 +33,7 @@ const Services = () => {
         'service.retreats.features': ['A safe space for self-analysis', 'Lasting tools for introspection', 'Personalized accompaniment', 'Relaxation and inner calm', 'New perspectives on your personal process', 'Support and companionship'],
         'service.preparation.tools.list': ['Meditations', 'Breathing techniques', 'Reflective Exercises', 'Grounding Practices'],
         'service.integration.gain.list': ['Reflective and self-analysis prompts', 'Emotional and psychological support', 'Group connection and shared insights'],
-        'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish', 'Price: $25 USD per person'],
+        'service.integration.details.list': ['Duration: 2 hours', 'Language: English or Spanish'],
         'service.individual.approach.list': [],
         'service.individual.features': ['Clarity about your experience', 'A safe and confidential space', 'Active listening and empathetic accompaniment', 'Solid tools for integration', 'Greater depth in your personal process']
       }
