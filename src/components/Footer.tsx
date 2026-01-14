@@ -71,7 +71,6 @@ const Footer = () => {
             {t('footer.copyright')}
           </p>
           <div className="flex flex-wrap justify-center gap-4 md:gap-6 text-xs md:text-sm">
-            <a href="#" className="text-primary-foreground/60 hover:text-accent transition-smooth">{t('footer.privacy')}</a>
             <a href="#" className="text-primary-foreground/60 hover:text-accent transition-smooth">{t('footer.terms')}</a>
             <a href="#" className="text-primary-foreground/60 hover:text-accent transition-smooth">{t('footer.ethics')}</a>
           </div>
